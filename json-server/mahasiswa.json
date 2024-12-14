@@ -9,14 +9,6 @@
       "longitude": 112.0644795
     },
     {
-      "id": "3",
-      "name": "Masjid Aschabul Kahfi Perut Bumi Al Maghribi",
-      "rating": 4.3,
-      "address": "33VG+559, Wire, Gedongombo, Kec. Semanding, Kabupaten Tuban, Jawa Timur 62381",
-      "latitude": -6.9070875,
-      "longitude": 112.0754844
-    },
-    {
       "id": "4",
       "name": "Masji Baittul Makmur",
       "rating": 4.8,
@@ -63,14 +55,6 @@
       "address": "427R+Q3J, Perbon, Tuban, Tuban Regency, East Java 62310",
       "latitude": -6.8855375,
       "longitude": 112.0401406
-    },
-    {
-      "id": "13",
-      "name": "Masjid Baitul Mu'min Polres Tuban",
-      "rating": 4.8,
-      "address": "32XV+PWF, Sidorejo, Tuban, Tuban Regency, East Java 62315",
-      "latitude": -6.9006875,
-      "longitude": 112.0447969
     },
     {
       "id": "14",

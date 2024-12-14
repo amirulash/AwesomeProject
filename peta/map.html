@@ -48,26 +48,17 @@
             position: fixed;
             top: 50%;
             left: 50%;
-            transform: translate(-50%, -50%) scale(0);
-            /* Popup mulai dengan ukuran kecil */
+            transform: translate(-50%, -50%);
             background: white;
             padding: 20px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
             z-index: 1000;
             width: 90%;
-            max-width: 500px;
-            max-height: 80%;
+            max-width: 400px;
             overflow-y: auto;
-            transition: transform 0.3s ease-in-out;
-            /* Menambahkan animasi saat muncul */
+            max-height: 80%;
         }
-
-        #form-popup.show {
-            transform: translate(-50%, -50%) scale(1);
-            /* Setelah popup muncul, tampilkan dengan ukuran normal */
-        }
-
 
         #form-popup h2 {
             margin-top: 0;
@@ -171,8 +162,20 @@
             transform: scale(0.95);
             box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
         }
-    </style>
 
+        .delete-btn {
+            background-color: #e63946;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .delete-btn:hover {
+            background-color: #d62828;
+        }
+    </style>
 </head>
 
 <body>
@@ -241,43 +244,12 @@
         L.control.layers(baseMaps).addTo(map);
 
         var customIcon = L.icon({
-            iconUrl: 'https://img.icons8.com/emoji/48/mosque-emoji.png', // Ganti dengan URL ikon yang diinginkan
+            iconUrl: 'https://img.icons8.com/emoji/48/mosque-emoji.png',
             iconSize: [32, 32],
             iconAnchor: [16, 32],
             popupAnchor: [0, -32]
         });
-        // Mengambil file GeoJSON dari URL atau path lokal
-        var geojsonLayer = L.geoJSON(null, {
-            style: function (feature) {
-                return {
-                    color: 'blue',
-                    weight: 2,
-                    opacity: 1,
-                    fillColor: 'cyan',
-                    fillOpacity: 0.4
-                };
-            },
-            onEachFeature: function (feature, layer) {
-                if (feature.properties && feature.properties.name) {
-                    layer.bindPopup('<strong>' + feature.properties.name + '</strong>');
-                }
-            }
-        }).addTo(map);
 
-        // Fungsi untuk mengambil file GeoJSON dan menambahkannya ke layer
-        function loadGeoJSON() {
-            fetch('admin_tuban.geojson') // Ganti dengan path atau URL file GeoJSON
-                .then(response => response.json())
-                .then(data => {
-                    geojsonLayer.addData(data);
-                })
-                .catch(error => {
-                    console.error('Error loading GeoJSON data: ', error);
-                });
-        }
-
-        // Memanggil fungsi untuk memuat file GeoJSON
-        loadGeoJSON();
         var formPopup = document.getElementById('form-popup');
         var dimBackground = document.getElementById('dim-background');
         var closeButton = document.getElementById('close-button');
@@ -337,12 +309,36 @@
             })
                 .then(response => response.json())
                 .then(data => {
-                    L.marker([latitude, longitude], { icon: customIcon })
+                    var newMarker = L.marker([latitude, longitude], { icon: customIcon })
                         .addTo(map)
-                        .bindPopup(`<strong>${name}</strong><br>
-                        Rating: ${rating}<br>${address}<br>
-                        <a href="https://www.google.com/maps/dir/?api=1&destination=${latitude},${longitude}" target="_blank">Dapatkan Rute</a>`)
+                        .bindPopup(`
+                            <strong>${name}</strong><br>
+                            Rating: ${rating}<br>${address}<br>
+                            <a href="https://www.google.com/maps/dir/?api=1&destination=${latitude},${longitude}" target="_blank">Dapatkan Rute</a><br>
+                            <button class="delete-btn">Hapus</button>
+                        `)
                         .openPopup();
+
+                    // Tombol hapus untuk menghapus marker dari peta dan database
+                    newMarker.on('popupopen', function () {
+                        var deleteButton = newMarker.getPopup().getElement().querySelector('.delete-btn');
+                        deleteButton.addEventListener('click', function () {
+                            // Menghapus marker dari peta
+                            map.removeLayer(newMarker);
+
+                            // Menghapus data dari basis data
+                            fetch(`http://192.168.199.144:3000/mahasiswa/${data.id}`, {
+                                method: 'DELETE'
+                            })
+                                .then(response => response.json())
+                                .then(() => {
+                                    alert('Marker berhasil dihapus');
+                                })
+                                .catch(error => {
+                                    console.error('Error:', error);
+                                });
+                        });
+                    });
 
                     mahasiswaForm.reset();
                     formPopup.style.display = 'none';
@@ -360,26 +356,41 @@
                 .then(response => response.json())
                 .then(data => {
                     data.forEach(item => {
-                        L.marker([item.latitude, item.longitude], { icon: customIcon })
+                        var existingMarker = L.marker([item.latitude, item.longitude], { icon: customIcon })
                             .addTo(map)
-                            .bindPopup(`<strong>${item.name}</strong><br>
-                        Rating: ${item.rating}<br>${item.address}<br>
-                        <a href="https://www.google.com/maps/dir/?api=1&destination=${item.latitude},${item.longitude}" target="_blank">Dapatkan Rute</a>`);
+                            .bindPopup(`
+                                <strong>${item.name}</strong><br>
+                                Rating: ${item.rating}<br>${item.address}<br>
+                                <a href="https://www.google.com/maps/dir/?api=1&destination=${item.latitude},${item.longitude}" target="_blank">Dapatkan Rute</a><br>
+                                <button class="delete-btn">Hapus</button>
+                            `);
+
+                        // Menambahkan event listener untuk tombol hapus pada marker yang sudah ada
+                        existingMarker.on('popupopen', function () {
+                            var deleteButton = existingMarker.getPopup().getElement().querySelector('.delete-btn');
+                            deleteButton.addEventListener('click', function () {
+                                // Menghapus marker dari peta
+                                map.removeLayer(existingMarker);
+
+                                // Menghapus data dari basis data
+                                fetch(`http://192.168.199.144:3000/mahasiswa/${item.id}`, {
+                                    method: 'DELETE'
+                                })
+                                    .then(response => response.json())
+                                    .then(() => {
+                                        alert('Marker berhasil dihapus');
+                                    })
+                                    .catch(error => {
+                                        console.error('Error:', error);
+                                    });
+                            });
+                        });
                     });
                 })
                 .catch(error => {
                     console.error('Error:', error);
                 });
         }
-
-        refreshBtn.addEventListener('click', function () {
-            map.eachLayer(function (layer) {
-                if (layer instanceof L.Marker && layer !== marker) {
-                    map.removeLayer(layer);
-                }
-            });
-            loadData();
-        });
 
         loadData();
     </script>

@@ -154,6 +154,7 @@ export default function App() {
           name="Profil"
           component={ProfilScreen}
           options={{
+            headerShown: false,
             tabBarLabel: 'Profile',
           }}
         />

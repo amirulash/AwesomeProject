@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { SafeAreaView, View, TextInput, Button, StyleSheet, Text, FlatList, TouchableOpacity } from 'react-native';
 import { ScrollView } from 'react-native-virtualized-view';
 import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
-import { faPenToSquare, faMapMarkerAlt, faMosque } from '@fortawesome/free-solid-svg-icons';
+import { faPenToSquare, faMosque } from '@fortawesome/free-solid-svg-icons';
 
 const EditLocationData = () => {
     const jsonUrl = 'http://192.168.199.144:3000/mahasiswa'; // Ganti dengan IP server Anda
@@ -33,21 +33,24 @@ const EditLocationData = () => {
 
     const refreshPage = () => {
         setRefresh(true);
-        fetchData();
+        setName(''); // Clear form fields on refresh
+        setRating('');
+        setAddress('');
+        fetchData();  // This will refresh the list of locations
         setRefresh(false);
     };
 
     const selectItem = (item) => {
         setSelectedLocation(item);
         setName(item.name);
-        setRating(item.rating);
+        setRating(item.rating.toString());
         setAddress(item.address);
     };
 
     const submit = () => {
         const data = {
             name: name,
-            rating: rating,
+            rating: parseFloat(rating.replace(',', '.')), // Convert to float, replace comma with dot
             address: address,
         };
 
@@ -63,12 +66,17 @@ const EditLocationData = () => {
             .then((json) => {
                 console.log('Response:', json);
                 alert('Data berhasil diperbarui');
-                setName('');
+                setName(''); // Clear the form after successful submission
                 setRating('');
                 setAddress('');
-                refreshPage();
+                refreshPage();  // Refresh the list after successful submission
             })
             .catch((error) => console.error(error));
+    };
+
+    // Helper function to determine styles based on whether the input is filled
+    const getInputStyle = (value) => {
+        return value ? styles.inputFilled : styles.input;
     };
 
     return (
@@ -85,24 +93,29 @@ const EditLocationData = () => {
                                 <Text style={styles.title}>Edit Data Masjid</Text>
                                 <View style={styles.formGroup}>
                                     <TextInput
-                                        style={styles.input}
+                                        style={getInputStyle(name)} // Apply the dynamic style
                                         placeholder="Nama Lokasi"
                                         value={name}
                                         onChangeText={(value) => setName(value)}
                                     />
                                     <TextInput
-                                        style={styles.input}
-                                        placeholder="Rating"
+                                        style={getInputStyle(rating)} // Apply the dynamic style
+                                        placeholder="Rating (contoh: 4.5 atau 4,5)"
                                         value={rating}
+                                        keyboardType="decimal-pad"
                                         onChangeText={(value) => setRating(value)}
                                     />
                                     <TextInput
-                                        style={styles.input}
+                                        style={getInputStyle(address)} // Apply the dynamic style
                                         placeholder="Alamat"
                                         value={address}
                                         onChangeText={(value) => setAddress(value)}
                                     />
                                     <Button title="Simpan" style={styles.button} onPress={submit} />
+                                </View>
+                                {/* Refresh button inside the card but below 'Simpan' button */}
+                                <View style={styles.refreshContainer}>
+                                    <Button title="Refresh" onPress={refreshPage} color="#555" />
                                 </View>
                             </View>
                             <FlatList
@@ -142,14 +155,14 @@ export default EditLocationData;
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#f0f8ff', // Light blue background
+        backgroundColor: '#f7f7f7', // Light gray background
     },
     title: {
         fontSize: 24,
         fontWeight: 'bold',
         textAlign: 'center',
         marginVertical: 20,
-        color: '#007bff', // Blue title
+        color: '#333', // Dark gray title
     },
     formContainer: {
         paddingHorizontal: 15,
@@ -162,7 +175,7 @@ const styles = StyleSheet.create({
         marginVertical: 10,
         shadowColor: '#000',
         shadowOffset: { width: 0, height: 2 },
-        shadowOpacity: 0.2,
+        shadowOpacity: 0.1,
         shadowRadius: 5,
         elevation: 3,
     },
@@ -171,15 +184,27 @@ const styles = StyleSheet.create({
     },
     input: {
         borderWidth: 1,
-        borderColor: '#007bff', // Blue border
+        borderColor: '#cccccc', // Light gray border
         borderRadius: 8,
         padding: 10,
         marginVertical: 8,
-        backgroundColor: '#eaf3ff', // Light blue input background
+        backgroundColor: '#f9f9f9', // Light gray input background
+    },
+    inputFilled: {
+        borderWidth: 1,
+        borderColor: '#8a8a8a', // Slightly darker gray for filled inputs
+        borderRadius: 8,
+        padding: 10,
+        marginVertical: 8,
+        backgroundColor: '#e2e2e2', // Darker gray background for filled inputs
     },
     button: {
-        backgroundColor: '#007bff', // Blue button
+        backgroundColor: '#4caf50', // Green button
         color: '#fff',
+        marginVertical: 10,
+    },
+    refreshContainer: {
+        marginTop: 10,
     },
     list: {
         marginBottom: 20,
@@ -193,10 +218,10 @@ const styles = StyleSheet.create({
         borderRadius: 10,
         marginVertical: 8,
         borderWidth: 1,
-        borderColor: '#007bff', // Blue border around card
+        borderColor: '#cccccc', // Light gray border
         shadowColor: '#000',
         shadowOffset: { width: 0, height: 2 },
-        shadowOpacity: 0.2,
+        shadowOpacity: 0.1,
         shadowRadius: 5,
         elevation: 3,
     },
@@ -207,7 +232,7 @@ const styles = StyleSheet.create({
     },
     icon: {
         marginRight: 15,
-        color: '#000000', 
+        color: '#333', // Dark gray icon color
     },
     cardDetails: {
         flex: 1,
@@ -215,11 +240,11 @@ const styles = StyleSheet.create({
     cardTitle: {
         fontSize: 16,
         fontWeight: 'bold',
-        color: '#000000', // Blue title text
+        color: '#333', // Dark gray text color
     },
     cardText: {
         fontSize: 14,
-        color: '#555',
+        color: '#777', // Lighter gray for description text
     },
     editButton: {
         justifyContent: 'center',

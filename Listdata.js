@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { View, Text, StyleSheet, TouchableOpacity, FlatList, Alert, TextInput } from 'react-native';
+import { View, Text, StyleSheet, TouchableOpacity, FlatList, Alert, TextInput, Linking } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
-import { faChevronRight, faTrash, faStar, faSearch, faMosque } from '@fortawesome/free-solid-svg-icons';
+import { faChevronRight, faSearch, faMosque, faRoute } from '@fortawesome/free-solid-svg-icons';
 
 const Listdata = () => {
   const jsonUrl = 'http://192.168.199.144:3000/mahasiswa';
@@ -34,19 +34,6 @@ const Listdata = () => {
     setRefresh(false);
   };
 
-  const deleteData = (id) => {
-    fetch(jsonUrl + '/' + id, {
-      method: 'DELETE',
-    })
-      .then((response) => response.json())
-      .then((json) => {
-        console.log(json);
-        Alert.alert('Info', 'Data berhasil dihapus');
-        refreshPage();
-      })
-      .catch((error) => console.error(error));
-  };
-
   const handleSearch = (text) => {
     setSearch(text);
     if (text) {
@@ -59,6 +46,12 @@ const Listdata = () => {
     } else {
       setFilteredData(dataUser);
     }
+  };
+
+  // Fungsi untuk membuka Google Maps dengan koordinat masjid
+  const openGoogleMaps = (latitude, longitude) => {
+    const url = `https://www.google.com/maps?q=${latitude},${longitude}`;
+    Linking.openURL(url).catch((err) => console.error("Couldn't load page", err));
   };
 
   return (
@@ -97,15 +90,9 @@ const Listdata = () => {
                 <Text style={styles.cardSubtitle}>Alamat: {item.address}</Text>
               </View>
               <TouchableOpacity
-                style={styles.deleteButton}
-                onPress={() =>
-                  Alert.alert('Hapus Data', 'Yakin akan menghapus data ini?', [
-                    { text: 'Tidak', onPress: () => console.log('Tidak') },
-                    { text: 'Ya', onPress: () => deleteData(item.id) },
-                  ])
-                }>
-                <FontAwesomeIcon icon={faTrash} size={16} color="#fff" />
-                <Text style={styles.deleteButtonText}>Hapus</Text>
+                style={styles.directionsButton}
+                onPress={() => openGoogleMaps(item.latitude, item.longitude)}>
+                <FontAwesomeIcon icon={faRoute} size={20} color="#fff" />
               </TouchableOpacity>
             </View>
           )}
@@ -203,18 +190,12 @@ const styles = StyleSheet.create({
     fontSize: 14,
     color: '#666',
   },
-  deleteButton: {
-    flexDirection: 'row',
+  directionsButton: {
+    backgroundColor: '#3498db',
+    padding: 10,
+    borderRadius: 50,
     alignItems: 'center',
-    backgroundColor: '#e74c3c',
-    paddingVertical: 8,
-    paddingHorizontal: 15,
-    borderRadius: 5,
-  },
-  deleteButtonText: {
-    color: '#fff',
-    fontSize: 14,
-    marginLeft: 8,
+    justifyContent: 'center',
   },
 });
 
