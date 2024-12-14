@@ -1,79 +1,50 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# PGPBL-CouffesTime
+# Nama produk: Couffe's Time
 
-# Getting Started
+Deskripsi produk: Couffe's Time adalah Aplikasi Hybrid yang berisi informasi titik-titik Cafe yang pernah dikunjungi oleh Era dan teman-teman terdekatnya. Aplikasi ini memiliki fungsi utama sebagai basis data Era dan orang-orang yang membutuhkan rekomendasi tempat nugas atau diskusi berdasarkan kebutuhan yang berbeda-beda. Hal tersebut dilatar belakangi karena hasil pencarian acak yang dikeluarkan oleh Google Maps nyatanya tetap menimbulkan kebingungan bagi para mahasiswa dalam menentukan tempat untuk nongkrong atau belajar bersama. Oleh karena itu, Aplikasi Couffe's Time menyediakan informasi Cafe dan Tempat Nongkrong yang direkomendasikan langsung oleh Era berdasarkan pengalaman pribadinya terhadap Cafe-cafe yang pernah dikunjungi dan dilengkapi dengan rating, kategori, deskripsi alamat, foto, serta alasan mengapa tempat tersebut direkomendasikan. Couffe's Time akan memberikan pengalaman unik yang dapat memandu para pengguna dalam penjelajahan dunia Cafe yang penuh cita rasa sehingga dapat menemukan pesona Cafe-cafe terbaik di sekitar pengguna. Couffe's Time memiliki keunggulan: 1. Memberikan informasi lokasi, 2. Menyediakan informasi rating, 3. Pengguna dapat berkontribusi, 4. Visualisasi yang menarik, 5. Menyediakan deskripsi singkat hasil penilaian.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+# Komponen pembangun produk: 
+1. React-Native
+2. Leaflet
+3. Spreadsheet & App Script
+4. Geocode by Awesome Table
+5. Visual Studio Code
+6. Node js
+7. Android Studio
+8. FontAwesome
+9. W3Schools
+    
+# Sumber data
+1. Google Maps
+2. Pengalaman Pribadi
 
-## Step 1: Start the Metro Server
+# SplashScreen
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+![GitHub Logo](peta/SplashScreen.jpg)
 
-To start Metro, run the following command from the _root_ of your React Native project:
+# HomeScreen
+   
+   ![GitHub Logo](peta/HomeScreen1.jpg) ![GitHub Logo](peta/HomeScreen2.jpg)
 
-```bash
-# using npm
-npm start
 
-# OR using Yarn
-yarn start
-```
+# MapScreen
 
-## Step 2: Start your Application
+![GitHub Logo](peta/MapScreen1.jpg) ![GitHub Logo](peta/MapScreen2.jpg)
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+# ListDataScreen
 
-### For Android
+![GitHub Logo](peta/ListDataScreen2.jpg) ![GitHub Logo](peta/ListDataScreen1.jpg)
 
-```bash
-# using npm
-npm run android
 
-# OR using Yarn
-yarn android
-```
+# AddDatScreen
 
-### For iOS
+![GitHub Logo](peta/AddDataScreen1.jpg) ![GitHub Logo](peta/AddDataScreen2.jpg)
 
-```bash
-# using npm
-npm run ios
+# ProfilDataScreen
 
-# OR using Yarn
-yarn ios
-```
+![GitHub Logo](peta/ProfilScreen1.jpg) ![GitHub Logo](peta/ProfilScreen2.jpg)
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
 
-## Step 3: Modifying your App
 
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+Project Responsi Zat Lentera Sunda Hasbillah - Couffe's Time

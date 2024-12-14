@@ -1,0 +1,436 @@
+{
+  "mahasiswa": [
+    {
+      "id": "1",
+      "name": "The Great Mosque Of Tuban",
+      "rating": 4.8,
+      "address": "4347+2G4, Jl. Bonang, Kutorejo, Kec. Tuban, Kabupaten Tuban, Jawa Timur 62311",
+      "latitude": -6.8947246,
+      "longitude": 112.0644795
+    },
+    {
+      "id": "3",
+      "name": "Masjid Aschabul Kahfi Perut Bumi Al Maghribi",
+      "rating": 4.3,
+      "address": "33VG+559, Wire, Gedongombo, Kec. Semanding, Kabupaten Tuban, Jawa Timur 62381",
+      "latitude": -6.9070875,
+      "longitude": 112.0754844
+    },
+    {
+      "id": "4",
+      "name": "Masji Baittul Makmur",
+      "rating": 4.8,
+      "address": "Jl. Letda Sucipto No.211",
+      "latitude": -6.8830359,
+      "longitude": 112.0191037
+    },
+    {
+      "id": "5",
+      "name": "Masjid Sabilun Najah",
+      "rating": 4.7,
+      "address": "429F+QJM, Mondokan, Tuban, Tuban Regency, East Java 62319",
+      "latitude": -6.8805375,
+      "longitude": 112.0240469
+    },
+    {
+      "id": "7",
+      "name": "Masjid Hidayatullah Sidorejo- Tuban",
+      "rating": 4.6,
+      "address": "33W4+9RQ, Jl. Mojopahit Gg. Mekar, Sidorejo, Kec. Tuban, Kabupaten Tuban, Jawa Timur 62315",
+      "latitude": -6.9034797,
+      "longitude": 112.0568108
+    },
+    {
+      "id": "9",
+      "name": "Masjid Al-Fajri Tuban",
+      "rating": 4.7,
+      "address": "Jl. Sunan Kudus No.01, Latsari, Kec. Tuban, Kabupaten Tuban, Jawa Timur 62314",
+      "latitude": -6.893703,
+      "longitude": 112.0440204
+    },
+    {
+      "id": "11",
+      "name": "Masjid Aastana",
+      "rating": 4.7,
+      "address": "4337+M8V, Kelurahan",
+      "latitude": -6.8957625,
+      "longitude": 110.0632969
+    },
+    {
+      "id": "12",
+      "name": "Masjid Jami' Al-Hidayah",
+      "rating": 4.7,
+      "address": "427R+Q3J, Perbon, Tuban, Tuban Regency, East Java 62310",
+      "latitude": -6.8855375,
+      "longitude": 112.0401406
+    },
+    {
+      "id": "13",
+      "name": "Masjid Baitul Mu'min Polres Tuban",
+      "rating": 4.8,
+      "address": "32XV+PWF, Sidorejo, Tuban, Tuban Regency, East Java 62315",
+      "latitude": -6.9006875,
+      "longitude": 112.0447969
+    },
+    {
+      "id": "14",
+      "name": "Musholla Al-Furqon Pemda",
+      "rating": 5,
+      "address": "Jl. KH. Mustain No.22",
+      "latitude": -6.8972665,
+      "longitude": 112.0640627
+    },
+    {
+      "id": "15",
+      "name": "Masjid KH. Hasyim Asy'ari",
+      "rating": 5,
+      "address": "425M+9VF, Jl. Letda Sucipto No.108",
+      "latitude": -6.8895024,
+      "longitude": 112.0349552
+    },
+    {
+      "id": "17",
+      "name": "MASJID Luhur Al Mabrur (LDII)",
+      "rating": 4.8,
+      "address": "426P+F53, Jl. Delima II, Perbon, Kec. Tuban, Kabupaten Tuban, Jawa Timur 62319",
+      "latitude": -6.8889643,
+      "longitude": 112.0355438
+    },
+    {
+      "id": "18",
+      "name": "Masjid Baitur Rohim",
+      "rating": 4.8,
+      "address": "4354+JFX, Jl. Sumur Gempol",
+      "latitude": -6.8908875,
+      "longitude": 112.0562344
+    },
+    {
+      "id": "19",
+      "name": "Masjid Al - Ma'mur",
+      "rating": 4.8,
+      "address": "Blok Perum Permata Bonang",
+      "latitude": -6.8762226,
+      "longitude": 112.0350451
+    },
+    {
+      "id": "20",
+      "name": "Masjid Al Falah",
+      "rating": 4.7,
+      "address": "Jl. DR. Wahidin Sudirohusodo No.99a, Latsari, Kec. Tuban, Kabupaten Tuban, Jawa Timur 62314",
+      "latitude": -6.896521,
+      "longitude": 112.0394048
+    },
+    {
+      "id": "21",
+      "name": "Masjid Al-Amin",
+      "rating": 4.7,
+      "address": "32XW+MVC, Sidorejo, Tuban, Tuban Regency, East Java 62315",
+      "latitude": -6.9008125,
+      "longitude": 112.0471406
+    },
+    {
+      "id": "22",
+      "name": "Masjid Asmoro Qondi",
+      "rating": 4.7,
+      "address": "34VH+Q3P, Jl. Raya Daendles",
+      "latitude": -6.9055375,
+      "longitude": 112.1277031
+    },
+    {
+      "id": "23",
+      "name": "Masjid A l Jabar",
+      "rating": 5,
+      "address": "4363+8W4, Kingking, Tuban, Tuban Regency, East Java 62313",
+      "latitude": -6.8892375,
+      "longitude": 112.0548281
+    },
+    {
+      "id": "24",
+      "name": "Masjid An-Najiyah",
+      "rating": 4.9,
+      "address": "Dondong, Gedongombo, Semanding, Tuban Regency, East Java 62381",
+      "latitude": -6.9111999,
+      "longitude": 112.0685027
+    },
+    {
+      "id": "25",
+      "name": "Masjid Sabilul Muttaqin",
+      "rating": 4.9,
+      "address": "33W8+XV4, Kebonsari Gg. I",
+      "latitude": -6.9026125,
+      "longitude": 112.0672031
+    },
+    {
+      "id": "26",
+      "name": "Masjid Al-Mutamakkin",
+      "rating": 4.7,
+      "address": "4236+33R, Bongkol 1, Sumurgung, Tuban, Tuban Regency, East Java 62319",
+      "latitude": -6.8972625,
+      "longitude": 112.0101406
+    },
+    {
+      "id": "27",
+      "name": "Masjid Jami' Nurul Ulaa Panyuran",
+      "rating": 4.9,
+      "address": "433V+856, Kepoh, Panyuran, Kec. Palang, Kabupaten Tuban, Jawa Timur 62391",
+      "latitude": -6.8967125,
+      "longitude": 112.0928906
+    },
+    {
+      "id": "28",
+      "name": "Masjid Almuhdor",
+      "rating": 4.9,
+      "address": "4336+49W, Gg. II B, Sidomulyo, Kec. Tuban, Kabupaten Tuban, Jawa Timur 62312",
+      "latitude": -6.8973384,
+      "longitude": 112.0612279
+    },
+    {
+      "id": "29",
+      "name": "Masjid al-bayyinah",
+      "rating": 5,
+      "address": "Jl. Kragan - Rembang - Surabaya No.703",
+      "latitude": -6.87839,
+      "longitude": 112.043211
+    },
+    {
+      "id": "30",
+      "name": "Masjid Babus Salam",
+      "rating": 4.6,
+      "address": "Jl. Letda Sucipto No.211, Perbon, Kec. Tuban, Kabupaten Tuban, Jawa Timur 62310",
+      "latitude": -6.886187,
+      "longitude": 112.0270338
+    },
+    {
+      "id": "31",
+      "name": "Masjid Al Mujaddid",
+      "rating": 4.5,
+      "address": "432G+V9M, Sukolilo Gg. Cuci Mobil",
+      "latitude": -6.8977875,
+      "longitude": 112.0759219
+    },
+    {
+      "id": "32",
+      "name": "Masjid Mujahidin",
+      "rating": 4.6,
+      "address": "Gg. Pringgading No.9",
+      "latitude": -6.8948628,
+      "longitude": 112.0521173
+    },
+    {
+      "id": "33",
+      "name": "Masjid \"Nurul Huda\" Mondokan",
+      "rating": 4.6,
+      "address": "Jl. Letda Sucipto No.204",
+      "latitude": -6.8847444,
+      "longitude": 112.0247684
+    },
+    {
+      "id": "34",
+      "name": "Masjid Perumahan Dinas Semen Gresik AT-TAQWA",
+      "rating": 4.6,
+      "address": "Jl. Raya Bogorejo No.14, Kuthi, Bogorejo, Kec. Merakurak, Kabupaten Tuban, Jawa Timur 62355",
+      "latitude": -6.8837951,
+      "longitude": 112.0165064
+    },
+    {
+      "id": "35",
+      "name": "Masjid Manba'ul Huda Tuban",
+      "rating": 4.6,
+      "address": "Latsari, Tuban, Tuban Regency, East Java 62314",
+      "latitude": -6.8922539,
+      "longitude": 112.0446562
+    },
+    {
+      "id": "36",
+      "name": "Masjid Baiturrohman",
+      "rating": 4.7,
+      "address": "5293+378, Desa Beji, Jenu, Krajan, Beji, Kec. Tuban, Kabupaten Tuban, Jawa Timur 62352",
+      "latitude": -6.8323375,
+      "longitude": 112.0032031
+    },
+    {
+      "id": "37",
+      "name": "Masjid Ath Thur",
+      "rating": 4.6,
+      "address": "Jl. Cokroaminoto, Dondong, Gedongombo, Kec. Semanding, Kabupaten Tuban, Jawa Timur 62381",
+      "latitude": -6.9082402,
+      "longitude": 112.0718402
+    },
+    {
+      "id": "38",
+      "name": "Masjid Darul Ilmi IAINU Tuban",
+      "rating": 5,
+      "address": "33XH+Q27, Sukolilo, Tuban, Tuban Regency, East Java 62318",
+      "latitude": -6.9005875,
+      "longitude": 112.0775469
+    },
+    {
+      "id": "39",
+      "name": "Masjid Al Manshur",
+      "rating": 4.4,
+      "address": "Jalan Pahlawan, Gg. Selorejo 2, Semanding, Wire, Gedongombo, Kec. Tuban, Kabupaten Tuban, Jawa Timur 62381",
+      "latitude": -6.901218,
+      "longitude": 112.0738405
+    },
+    {
+      "id": "41",
+      "name": "Masjid Nurul Huda Al-Ihsan",
+      "rating": 4.8,
+      "address": "Jl. Pattimura No.28, Baturetno, Kec. Tuban, Kabupaten Tuban, Jawa Timur 62318",
+      "latitude": -6.8982034,
+      "longitude": 112.0714136
+    },
+    {
+      "id": "42",
+      "name": "Masjid Daarul Muttaqin",
+      "rating": 4.8,
+      "address": "32VR+5P8, Gg. Sejahtera I Jl. Karang Indah Timur",
+      "latitude": -6.9065976,
+      "longitude": 112.048216
+    },
+    {
+      "id": "43",
+      "name": "Tomb of Sunan Bonang",
+      "rating": 4.5,
+      "address": "Gg. IV, Kutorejo, Kec. Tuban, Kabupaten Tuban, Jawa Timur 62311",
+      "latitude": -6.8998239,
+      "longitude": 112.0675697
+    },
+    {
+      "id": "44",
+      "name": "Masjid Jabal Nur Bukit Karang",
+      "rating": 4.7,
+      "address": "32WQ+C56, Perumahan Bukit Karang, Semanding, Bukit Karang, Karang, Kec. Semanding, Kabupaten Tuban, Jawa Timur 62381",
+      "latitude": -6.9039625,
+      "longitude": 112.0378906
+    },
+    {
+      "id": "45",
+      "name": "Masjid Baiturohman",
+      "rating": 4.9,
+      "address": "6X7G+QW3, Jalan Raya, Melangwe, Mentoso, Jenu, Tuban Regency, East Java 62352",
+      "latitude": -6.7856125,
+      "longitude": 111.9772969
+    },
+    {
+      "id": "46",
+      "name": "Masjid Ath-Thoyyibah",
+      "rating": 5,
+      "address": "Jl. Panglima Sudirman No.294",
+      "latitude": -6.8894694,
+      "longitude": 112.0565148
+    },
+    {
+      "id": "47",
+      "name": "Masjid Jami Rohmat",
+      "rating": 4.5,
+      "address": "5XHC+2JJ, Jl. Raya Jenu, Bogang, Beji, Kec. Jenu, Kabupaten Tuban, Jawa Timur 62352",
+      "latitude": -6.830152,
+      "longitude": 111.9997845
+    },
+    {
+      "id": "48",
+      "name": "Masjid Astana Jenu",
+      "rating": 4.6,
+      "address": "Krajan, Jenu, Tuban Regency, East Java 62352",
+      "latitude": -6.8276539,
+      "longitude": 111.9909536
+    },
+    {
+      "id": "49",
+      "name": "Masjid Darul Maghfiroh",
+      "rating": 4.9,
+      "address": "422W+GJM, Jl. Pramuka, Sidorejo, Ronggomulyo, Kec. Tuban, Kabupaten Tuban, Jawa Timur 62315",
+      "latitude": -6.8967903,
+      "longitude": 112.0466819
+    },
+    {
+      "id": "50",
+      "name": "Masjid Nursalim",
+      "rating": 4.9,
+      "address": "Jl. Pemuda No.2, Sidomulyo, Kec. Tuban, Kabupaten Tuban, Jawa Timur 62312",
+      "latitude": -6.8931312,
+      "longitude": 112.0626303
+    },
+    {
+      "id": "51",
+      "name": "Masjid Bejagung",
+      "rating": 4.8,
+      "address": "33P6+9R8, Krajan, Bejagung, Kec. Semanding, Kabupaten Tuban, Jawa Timur 62381",
+      "latitude": -6.9140875,
+      "longitude": 112.0620781
+    },
+    {
+      "id": "52",
+      "name": "Masjid Al-Karomah",
+      "rating": 3.6,
+      "address": "32V6+69G, Dusun Winong, Sugiharjo, Tuban, Tuban Regency, East Java 62355",
+      "latitude": -6.9069375,
+      "longitude": 112.0109531
+    },
+    {
+      "id": "53",
+      "name": "Masjid Manarul Walidain",
+      "rating": 5,
+      "address": "424R+F2P, Latsari, Tuban, Tuban Regency, East Java 62314",
+      "latitude": -6.8937875,
+      "longitude": 112.0400781
+    },
+    {
+      "id": "54",
+      "name": "Wisata Religi/Ponpes Perut Bumi",
+      "rating": 4.4,
+      "address": "Wire, Gedongombo, Semanding, Tuban Regency, East Java 62381",
+      "latitude": -6.9156472,
+      "longitude": 112.0804259
+    },
+    {
+      "id": "55",
+      "name": "Masjid Nurul Iman",
+      "rating": 3,
+      "address": "Jl. KH. Mustain No.8, Kutorejo, Kec. Tuban, Kabupaten Tuban, Jawa Timur 62311",
+      "latitude": -6.8964992,
+      "longitude": 112.0641382
+    },
+    {
+      "id": "56",
+      "name": "MASJID ATH - THARIQ",
+      "rating": 5,
+      "address": "Jabung, Sugihwaras, Jenu, Tuban Regency, East Java",
+      "latitude": -6.8632608,
+      "longitude": 112.0208095
+    },
+    {
+      "id": "57",
+      "name": "Masjid Baitul Makmur (LDII)",
+      "rating": 5,
+      "address": "32CX+9HG, Jarum, Prunggahan Kulon, Kec. Semanding, Kabupaten Tuban, Jawa Timur 62381",
+      "latitude": -6.9299846,
+      "longitude": 112.032442
+    },
+    {
+      "id": "58",
+      "name": "Masjid Al-Hidayah",
+      "rating": 5,
+      "address": "4334+W2Q, Jalan Piere Tendehan, Ronggomulyo, Kec. Tuban, Kabupaten Tuban, Jawa Timur 62313",
+      "latitude": -6.896018,
+      "longitude": 112.0569634
+    },
+    {
+      "id": "60",
+      "name": "Masjid Al Amin Dul Karmadji",
+      "rating": 4.3,
+      "address": "33W3+RXH, Gg. Sadig I, Sidorejo, Kec. Tuban, Kabupaten Tuban, Jawa Timur 62315",
+      "latitude": -6.9028544,
+      "longitude": 112.0545657
+    },
+    {
+      "id": "61",
+      "name": "Musholla Samsat Tuban",
+      "rating": 5,
+      "address": "425R+R6W, Latsari, Tuban, Tuban Regency, East Java 62310",
+      "latitude": -6.8903875,
+      "longitude": 112.0405781
+    }
+  ]
+}
