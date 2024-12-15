@@ -16,12 +16,11 @@
 **Komponen pembangun produk**:
 1. React Native
 2. Leaflet
-3. Google Maps API
-4. Node.js
-5. Visual Studio Code
-6. Android Studio
-7. FontAwesome
-8. W3Schools
+3. Node.js
+4. Visual Studio Code
+5. Android Studio
+6. FontAwesome
+
 
 **Sumber data**:
 1. Google Maps
