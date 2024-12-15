@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peta Interaktif dengan Marker dan Form Input</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+    <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+
+    <style>
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        #map {
+            height: calc(110vh - 120px);
+            width: 100%;
+        }
+
+        .header {
+            background-color: #005f73;
+            padding: 15px 0;
+            border-bottom-left-radius: 40px;
+            border-bottom-right-radius: 40px;
+            box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            position: relative;
+            z-index: 1000;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            letter-spacing: 1px;
+        }
+
+        .header-text {
+            font-size: 24px;
+            color: #ffffff;
+            font-weight: 700;
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        #form-popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: white;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            z-index: 1000;
+            width: 90%;
+            max-width: 400px;
+            overflow-y: auto;
+            max-height: 80%;
+        }
+
+        #form-popup h2 {
+            margin-top: 0;
+            color: #005f73;
+            text-align: center;
+        }
+
+        input[type="text"],
+        button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #008CBA;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+        }
+
+        button:hover {
+            background-color: #00b5b2;
+        }
+
+        #close-button {
+            background-color: #E63946;
+        }
+
+        #close-button:hover {
+            background-color: #D62828;
+        }
+
+        #dim-background {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 999;
+        }
+
+        #add-point-btn {
+            position: absolute;
+            bottom: 80px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #008CBA;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 50%;
+            font-size: 14px;
+            cursor: pointer;
+            z-index: 1000;
+            width: 100px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #add-point-btn:hover {
+            background: #04ab8f;
+        }
+
+        #refresh-btn {
+            position: absolute;
+            top: 200px;
+            right: 10px;
+            background: linear-gradient(145deg, #2196F3, #42a5f5);
+            color: white;
+            border: none;
+            padding: 12px;
+            border-radius: 50%;
+            font-size: 16px;
+            cursor: pointer;
+            z-index: 1001;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+        }
+
+        #refresh-btn:hover {
+            background: linear-gradient(145deg, #90CAF9, #42a5f5);
+            transform: scale(1.1);
+            box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        #refresh-btn:active {
+            transform: scale(0.95);
+            box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        .delete-btn {
+            background-color: #e63946;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .delete-btn:hover {
+            background-color: #d62828;
+        }
+
+        #search-bar-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 15px;
+            background-color: #f0f0f0;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            border-bottom: 1px solid #ddd;
+        }
+
+        #search-bar {
+            width: 80%;
+            padding: 10px;
+            font-size: 14px;
+            border: 1px solid #ddd;
+            border-radius: 5px 0 0 5px;
+            outline: none;
+        }
+
+        #search-btn {
+            padding: 10px 20px;
+            background-color: #005f73;
+            color: white;
+            border: none;
+            border-radius: 0 5px 5px 0;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        #search-btn:hover {
+            background-color: #00798c;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="header">
+        <h1 class="header-text">Mosque's Map</h1>
+    </div>
+    <!-- Search Bar -->
+    <div id="search-bar-container">
+        <input type="text" id="search-bar" placeholder="Cari nama masjid..." />
+        <button id="search-btn">Cari</button>
+    </div>
+    <div id="dim-background"></div>
+    <button id="add-point-btn">Tambah Titik</button>
+    <button id="refresh-btn">🔄</button>
+    <div id="map"></div>
+
+    <!-- Form Popup -->
+    <div id="form-popup">
+        <h2>Tambah Data</h2>
+        <form id="mahasiswaForm">
+            <input type="text" id="name" placeholder="Nama Lokasi" required />
+            <input type="text" id="rating" placeholder="Rating" required />
+            <input type="text" id="address" placeholder="Alamat" required />
+            <input type="hidden" id="latitude" />
+            <input type="hidden" id="longitude" />
+            <button type="submit">Tambah Data</button>
+            <button type="button" id="close-button">Tutup</button>
+        </form>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script>
+        var map = L.map('map').setView([-6.8958, 112.0643], 13);
+
+        L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+            maxZoom: 19,
+        }).addTo(map);
+
+        var basemap1 = L.tileLayer(
+            "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+            {}
+        );
+
+        var basemap2 = L.tileLayer(
+            "https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}",
+            {}
+        );
+
+        var basemap3 = L.tileLayer(
+            "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+            {}
+        );
+
+        var basemap4 = L.tileLayer(
+            "https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png",
+            {}
+        );
+
+        basemap4.addTo(map);
+
+        var baseMaps = {
+            OpenStreetMap: basemap1,
+            "Esri World Street": basemap2,
+            "Esri Imagery": basemap3,
+            "Stadia Dark Mode": basemap4,
+        };
+
+        L.control.layers(baseMaps).addTo(map);
+
+        var customIcon = L.icon({
+            iconUrl: 'https://img.icons8.com/emoji/48/mosque-emoji.png',
+            iconSize: [32, 32],
+            iconAnchor: [16, 32],
+            popupAnchor: [0, -32]
+        });
+
+        var formPopup = document.getElementById('form-popup');
+        var dimBackground = document.getElementById('dim-background');
+        var closeButton = document.getElementById('close-button');
+        var addPointBtn = document.getElementById('add-point-btn');
+        var refreshBtn = document.getElementById('refresh-btn');
+        var mahasiswaForm = document.getElementById('mahasiswaForm');
+        var marker = null;
+
+        // Event untuk menutup form
+        closeButton.addEventListener('click', function () {
+            formPopup.style.display = 'none';
+            dimBackground.style.display = 'none';
+        });
+
+        // Event tombol tambah titik
+        addPointBtn.addEventListener('click', function () {
+            if (!marker) {
+                marker = L.marker(map.getCenter(), {
+                    draggable: true,
+                    icon: customIcon
+                }).addTo(map);
+                marker.bindPopup('Geser marker ke lokasi yang diinginkan, lalu klik marker untuk menambahkan data.').openPopup();
+
+                marker.on('click', function () {
+                    var latLng = marker.getLatLng();
+                    document.getElementById('latitude').value = latLng.lat;
+                    document.getElementById('longitude').value = latLng.lng;
+                    formPopup.style.display = 'block';
+                    dimBackground.style.display = 'block';
+                });
+            }
+        });
+
+        mahasiswaForm.addEventListener('submit', function (event) {
+            event.preventDefault();
+
+            var name = document.getElementById('name').value;
+            var rating = document.getElementById('rating').value;
+            var address = document.getElementById('address').value;
+            var latitude = document.getElementById('latitude').value;
+            var longitude = document.getElementById('longitude').value;
+
+            var newData = {
+                name: name,
+                rating: rating,
+                address: address,
+                latitude: parseFloat(latitude),
+                longitude: parseFloat(longitude)
+            };
+
+            fetch('http://192.168.123.166:3000/mahasiswa', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(newData)
+            })
+                .then(response => response.json())
+                .then(data => {
+                    var newMarker = L.marker([latitude, longitude], { icon: customIcon })
+                        .addTo(map)
+                        .bindPopup(`
+                            <strong>${name}</strong><br>
+                            Rating: ${rating}<br>${address}<br>
+                            <a href="https://www.google.com/maps/dir/?api=1&destination=${latitude},${longitude}" target="_blank">Dapatkan Rute</a><br>
+                            <button class="delete-btn">Hapus</button>
+                        `)
+                        .openPopup();
+
+                    // Tombol hapus untuk menghapus marker dari peta dan database
+                    newMarker.on('popupopen', function () {
+                        var deleteButton = newMarker.getPopup().getElement().querySelector('.delete-btn');
+                        deleteButton.addEventListener('click', function () {
+                            // Menghapus marker dari peta
+                            map.removeLayer(newMarker);
+
+                            // Menghapus data dari basis data
+                            fetch(`http://192.168.123.166:3000/mahasiswa/${data.id}`, {
+                                method: 'DELETE'
+                            })
+                                .then(response => response.json())
+                                .then(() => {
+                                    alert('Marker berhasil dihapus');
+                                })
+                                .catch(error => {
+                                    console.error('Error:', error);
+                                });
+                        });
+                    });
+
+                    mahasiswaForm.reset();
+                    formPopup.style.display = 'none';
+                    dimBackground.style.display = 'none';
+                    marker.remove();
+                    marker = null;
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                });
+        });
+
+        function loadData() {
+            fetch('http://192.168.123.166:3000/mahasiswa')
+                .then(response => response.json())
+                .then(data => {
+                    data.forEach(item => {
+                        var existingMarker = L.marker([item.latitude, item.longitude], { icon: customIcon })
+                            .addTo(map)
+                            .bindPopup(`
+                                <strong>${item.name}</strong><br>
+                                Rating: ${item.rating}<br>${item.address}<br>
+                                <a href="https://www.google.com/maps/dir/?api=1&destination=${item.latitude},${item.longitude}" target="_blank">Dapatkan Rute</a><br>
+                                <button class="delete-btn">Hapus</button>
+                            `);
+
+                        // Menambahkan event listener untuk tombol hapus pada marker yang sudah ada
+                        existingMarker.on('popupopen', function () {
+                            var deleteButton = existingMarker.getPopup().getElement().querySelector('.delete-btn');
+                            deleteButton.addEventListener('click', function () {
+                                // Menghapus marker dari peta
+                                map.removeLayer(existingMarker);
+
+                                // Menghapus data dari basis data
+                                fetch(`http://192.168.123.166:3000/mahasiswa/${item.id}`, {
+                                    method: 'DELETE'
+                                })
+                                    .then(response => response.json())
+                                    .then(() => {
+                                        alert('Marker berhasil dihapus');
+                                    })
+                                    .catch(error => {
+                                        console.error('Error:', error);
+                                    });
+                            });
+                        });
+                    });
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                });
+        }
+        loadData();
+        document.getElementById('search-btn').addEventListener('click', function () {
+    var searchValue = document.getElementById('search-bar').value.toLowerCase();
+
+    fetch('http://192.168.123.166:3000/mahasiswa')
+        .then(response => response.json())
+        .then(data => {
+            var foundMarker = data.find(item => item.name.toLowerCase() === searchValue);
+
+            if (foundMarker) {
+                map.setView([foundMarker.latitude, foundMarker.longitude], 16);
+                L.popup()
+                    .setLatLng([foundMarker.latitude, foundMarker.longitude])
+                    .setContent(`<strong>${foundMarker.name}</strong><br>${foundMarker.address}`)
+                    .openOn(map);
+            } else {
+                alert('Lokasi tidak ditemukan!');
+            }
+        })
+        .catch(error => {
+            console.error('Error:', error);
+        });
+});
+
+    </script>
+</body>
+
+</html>

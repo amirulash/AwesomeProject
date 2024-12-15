@@ -1,0 +1,1103 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 112.0644795,-6.8947246 ]
+    },
+    "properties": {
+    "Kabupaten":"Tuban",
+    "urllokasi":"https://www.google.com/maps/place/The+Great+Mosque+Of+Tuban/data=!4m7!3m6!1s0x2e77bd5910000001:0xed0dce27b7ed4ddb!8m2!3d-6.8949798!4d112.0638436!16s%2Fg%2F1pzpkq8hg!19sChIJAQAAEFm9dy4R203ttyfODe0?authuser=0&hl=en&rclk=1",
+    "Nama":"The Great Mosque Of Tuban",
+    "Rating":4.8,
+    "Jenis":"Mosque",
+    "Alamat":"4347+2G4, Jl. Bonang, Kutorejo, Kec. Tuban, Kabupaten Tuban, Jawa Timur 62311",
+    "W4Efsd 4":"4347+2G4, Jl. Bonang",
+    "W4Efsd 5":"Open 24 hours",
+    "foto":"https://lh5.googleusercontent.com/p/AF1QipNCgrbnYh_orQ-NgN5_QVTDD7mk5dAuP8-VsDzz=w80-h100-k-no"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 112.7412141,-7.2672923 ]
+    },
+    "properties": {
+    "Kabupaten":"Tuban",
+    "urllokasi":"https://www.google.com/maps/place/Masjid+Darussalam+Tuban/data=!4m7!3m6!1s0x2e7797e23a92bbc9:0xbaa3c67e8870fe98!8m2!3d-6.9004986!4d112.0645519!16s%2Fg%2F1hm5g859z!19sChIJybuSOuKXdy4RmP5wiH7Go7o?authuser=0&hl=en&rclk=1",
+    "Nama":"Masjid Darussalam Tuban",
+    "Rating":4.8,
+    "Jenis":"Mosque",
+    "Alamat":"33X7+RR3, Jl. Basuki Rachmad",
+    "W4Efsd 4":"",
+    "W4Efsd 5":"Open 24 hours",
+    "foto":"https://lh5.googleusercontent.com/p/AF1QipPxzZsA0ywggnItpFnR5kqdm0XVbEYkTfOvNhqN=w80-h142-k-no"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 112.0754844,-6.9070875 ]
+    },
+    "properties": {
+    "Kabupaten":"Tuban",
+    "urllokasi":"https://www.google.com/maps/place/Masjid+Aschabul+Kahfi+Perut+Bumi+Al+Maghribi/data=!4m7!3m6!1s0x2e7797dcea3aeca7:0xffb191d5a35e631d!8m2!3d-6.9070964!4d112.0754748!16s%2Fg%2F11cmzj2snd!19sChIJp-w66tyXdy4RHWNeo9WRsf8?authuser=0&hl=en&rclk=1",
+    "Nama":"Masjid Aschabul Kahfi Perut Bumi Al Maghribi",
+    "Rating":4.3,
+    "Jenis":"Mosque",
+    "Alamat":"33VG+559, Wire, Gedongombo, Kec. Semanding, Kabupaten Tuban, Jawa Timur 62381",
+    "W4Efsd 4":"33VG+559",
+    "W4Efsd 5":"",
+    "foto":"https://lh5.googleusercontent.com/p/AF1QipOzMfbvfzk9B44rfioM-b4h1kD-MMdNj2jAZTpo=w163-h92-k-no"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 112.0191037,-6.8830359 ]
+    },
+    "properties": {
+    "Kabupaten":"Tuban",
+    "urllokasi":"https://www.google.com/maps/place/Masji+Baittul+Makmur/data=!4m7!3m6!1s0x2e77a2bbf57eb845:0xf5af193bb7065455!8m2!3d-6.8866155!4d112.0297015!16s%2Fg%2F1pzw_m64w!19sChIJRbh-9buidy4RVVQGtzsZr_U?authuser=0&hl=en&rclk=1",
+    "Nama":"Masji Baittul Makmur",
+    "Rating":4.8,
+    "Jenis":"Mosque",
+    "Alamat":"Jl. Letda Sucipto No.211",
+    "W4Efsd 4":"",
+    "W4Efsd 5":"Open 24 hours",
+    "foto":"https://lh5.googleusercontent.com/p/AF1QipOS5v3EAzlhxNzJchEoChhAm4q-SlAC_0CK31c0=w163-h92-k-no"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 112.0240469,-6.8805375 ]
+    },
+    "properties": {
+    "Kabupaten":"Tuban",
+    "urllokasi":"https://www.google.com/maps/place/Masjid+Sabilun+Najah/data=!4m7!3m6!1s0x2e77a2c00139eaa5:0xbae5feb88f0c717!8m2!3d-6.8805347!4d112.0240464!16s%2Fg%2F11ckq2qz0p!19sChIJpeo5AcCidy4RF8fwiOtfrgs?authuser=0&hl=en&rclk=1",
+    "Nama":"Masjid Sabilun Najah",
+    "Rating":4.7,
+    "Jenis":"Mosque",
+    "Alamat":"429F+QJM, Mondokan, Tuban, Tuban Regency, East Java 62319",
+    "W4Efsd 4":"429F+QJM",
+    "W4Efsd 5":"",
+    "foto":"https://lh5.googleusercontent.com/p/AF1QipO6IlFMu8nhzMTScHaOuu79IyQHWX72zoItsvYm=w80-h106-k-no"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 119.4130117,-5.1193255 ]
+    },
+    "properties": {
+    "Kabupaten":"Tuban",
+    "urllokasi":"https://www.google.com/maps/place/Masjid+Al+Falah/data=!4m7!3m6!1s0x2e77a2a9140f32bf:0xec03a8d34a4a8efb!8m2!3d-6.896438!4d112.0397821!16s%2Fg%2F11cjhz3rdd!19sChIJvzIPFKmidy4R-45KStOoA-w?authuser=0&hl=en&rclk=1",
+    "Nama":"Masjid Al Falah",
+    "Rating":4.7,
+    "Jenis":"Mosque",
+    "Alamat":"Jl. DR. Wahidin Sudirohusodo No.99a",
+    "W4Efsd 4":"",
+    "W4Efsd 5":"Open 24 hours",
+    "foto":"https://lh5.googleusercontent.com/p/AF1QipMHIWOWnfsvOsrknWu_hI8pPEozbKaJ6Qd238w=w204-h92-k-no"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 112.0568108,-6.9034797 ]
+    },
+    "properties": {
+    "Kabupaten":"Tuban",
+    "urllokasi":"https://www.google.com/maps/place/Masjid+Hidayatullah+Sidorejo-+Tuban/data=!4m7!3m6!1s0x2e7797fc83a91bad:0x2127cd30961e3f71!8m2!3d-6.9040285!4d112.057123!16s%2Fg%2F11g6x7q87_!19sChIJrRupg_yXdy4RcT8eljDNJyE?authuser=0&hl=en&rclk=1",
+    "Nama":"Masjid Hidayatullah Sidorejo- Tuban",
+    "Rating":4.6,
+    "Jenis":"Mosque",
+    "Alamat":"33W4+9RQ, Jl. Mojopahit Gg. Mekar, Sidorejo, Kec. Tuban, Kabupaten Tuban, Jawa Timur 62315",
+    "W4Efsd 4":"33W4+9RQ, Jl. Mojopahit Gg. Mekar",
+    "W4Efsd 5":"",
+    "foto":"https://lh5.googleusercontent.com/Lbn-lHhsSGDSa8_xZ5hzji05gaORSCdkDOAfXUUG-DX8Njv88I8ZLOVmbqcIgvuD-Q=w122-h92-k-no"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 112.6968952,-7.3405301 ]
+    },
+    "properties": {
+    "Kabupaten":"Tuban",
+    "urllokasi":"https://www.google.com/maps/place/Masjid+Al+Mubarok/data=!4m7!3m6!1s0x2e779800cc269847:0x9d50b2773f0882f0!8m2!3d-6.9017373!4d112.0420366!16s%2Fg%2F1ygjcp1j9!19sChIJR5gmzACYdy4R8IIIP3eyUJ0?authuser=0&hl=en&rclk=1",
+    "Nama":"Masjid Al Mubarok",
+    "Rating":4.9,
+    "Jenis":"Mosque",
+    "Alamat":"Jl. Mastrip I",
+    "W4Efsd 4":"",
+    "W4Efsd 5":"Open 24 hours",
+    "foto":"https://lh5.googleusercontent.com/p/AF1QipP67RLipKhvtZxV20cho0N0iotIqHN20BmK-dhT=w163-h92-k-no"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 112.0440204,-6.893703 ]
+    },
+    "properties": {
+    "Kabupaten":"Tuban",
+    "urllokasi":"https://www.google.com/maps/place/Masjid+Al-Fajri+Tuban/data=!4m7!3m6!1s0x2e77a2ac7b0dbb45:0xff5f52646585ec6e!8m2!3d-6.8935518!4d112.0444395!16s%2Fg%2F1pzrg8_yy!19sChIJRbsNe6yidy4RbuyFZWRSX_8?authuser=0&hl=en&rclk=1",
+    "Nama":"Masjid Al-Fajri Tuban",
+    "Rating":4.7,
+    "Jenis":"Mosque",
+    "Alamat":"Jl. Sunan Kudus No.01, Latsari, Kec. Tuban, Kabupaten Tuban, Jawa Timur 62314",
+    "W4Efsd 4":"Jl. Sunan Kudus No.01",
+    "W4Efsd 5":"Closed",
+    "foto":"https://lh5.googleusercontent.com/PDVqN2TxbmZ4mzAMwUVhbSlIyeBZy9Q3zLjX4zJgUm_AyjOjreRNOTIaL9xJqIAuWw=w122-h92-k-no"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 106.8479068,-6.1972978 ]
+    },
+    "properties": {
+    "Kabupaten":"Tuban",
+    "urllokasi":"https://www.google.com/maps/place/Masjid+Rahmat/data=!4m7!3m6!1s0x2e77bd534f128465:0x37cfc8d1680f5512!8m2!3d-6.8937363!4d112.0481946!16s%2Fg%2F1pzrh8p1n!19sChIJZYQST1O9dy4RElUPaNHIzzc?authuser=0&hl=en&rclk=1",
+    "Nama":"Masjid Rahmat",
+    "Rating":4.7,
+    "Jenis":"Mosque",
+    "Alamat":"Jl. Diponegoro No.84",
+    "W4Efsd 4":"",
+    "W4Efsd 5":"Open 24 hours",
+    "foto":"https://lh5.googleusercontent.com/p/AF1QipNPL1bKEtk_XBLt79fgJBeVvmGsHXGT4_-i-oFV=w80-h106-k-no"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 110.0632969,-6.8957625 ]
+    },
+    "properties": {
+    "Kabupaten":"Tuban",
+    "urllokasi":"https://www.google.com/maps/place/Masjid+Aastana/data=!4m7!3m6!1s0x2e77bd5910000001:0xa8d9d2662273003e!8m2!3d-6.8957506!4d112.0632863!16s%2Fg%2F1pzq6rm54!19sChIJAQAAEFm9dy4RPgBzImbS2ag?authuser=0&hl=en&rclk=1",
+    "Nama":"Masjid Aastana",
+    "Rating":4.7,
+    "Jenis":"Mosque",
+    "Alamat":"4337+M8V, Kelurahan",
+    "W4Efsd 4":"",
+    "W4Efsd 5":"",
+    "foto":"https://lh5.googleusercontent.com/p/AF1QipO7GakSCA6lk-Rcx1pG-8P8z9yh-1MGULjtPpbw=w163-h92-k-no"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 112.0401406,-6.8855375 ]
+    },
+    "properties": {
+    "Kabupaten":"Tuban",
+    "urllokasi":"https://www.google.com/maps/place/Masjid+Jami%27+Al-Hidayah/data=!4m7!3m6!1s0x2e77a2b1341d0d29:0x78a26f920e45366b!8m2!3d-6.8855429!4d112.0401537!16s%2Fg%2F11cmp749ty!19sChIJKQ0dNLGidy4RazZFDpJvong?authuser=0&hl=en&rclk=1",
+    "Nama":"Masjid Jami' Al-Hidayah",
+    "Rating":4.7,
+    "Jenis":"Mosque",
+    "Alamat":"427R+Q3J, Perbon, Tuban, Tuban Regency, East Java 62310",
+    "W4Efsd 4":"",
+    "W4Efsd 5":"Open 24 hours",
+    "foto":"https://lh5.googleusercontent.com/p/AF1QipMKU3zy4qw1zYN-IsfPzQ_c2TCA1vYHdoRpON8-=w80-h106-k-no"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 112.0447969,-6.9006875 ]
+    },
+    "properties": {
+    "Kabupaten":"Tuban",
+    "urllokasi":"https://www.google.com/maps/place/Masjid+Baitul+Mu%27min+Polres+Tuban/data=!4m7!3m6!1s0x2e77993ef7ac555d:0x71e0346021ccbf16!8m2!3d-6.9006936!4d112.0448044!16s%2Fg%2F11rb4qrprq!19sChIJXVWs9z6Zdy4RFr_MIWA04HE?authuser=0&hl=en&rclk=1",
+    "Nama":"Masjid Baitul Mu'min Polres Tuban",
+    "Rating":4.8,
+    "Jenis":"Mosque",
+    "Alamat":"32XV+PWF, Sidorejo, Tuban, Tuban Regency, East Java 62315",
+    "W4Efsd 4":"",
+    "W4Efsd 5":"",
+    "foto":"https://lh5.googleusercontent.com/p/AF1QipMKVtd36EoVAJo2M0EyG2EKpdpQ2gUvM7ZwlOYN=w163-h92-k-no"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 112.0640627,-6.8972665 ]
+    },
+    "properties": {
+    "Kabupaten":"Tuban",
+    "urllokasi":"https://www.google.com/maps/place/Musholla+Al-Furqon+Pemda/data=!4m7!3m6!1s0x2e77bd5911ae5723:0xfdc64655a6c682a8!8m2!3d-6.8972665!4d112.0640627!16s%2Fg%2F1pzt2928y!19sChIJI1euEVm9dy4RqILGplVGxv0?authuser=0&hl=en&rclk=1",
+    "Nama":"Musholla Al-Furqon Pemda",
+    "Rating":5,
+    "Jenis":"Mosque",
+    "Alamat":"Jl. KH. Mustain No.22",
+    "W4Efsd 4":"",
+    "W4Efsd 5":"",
+    "foto":"https://lh5.googleusercontent.com/p/AF1QipPGSCe5NNzuoIIKwH_rlFN8G15I1EPhaxlGmkR-=w122-h92-k-no"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 112.0349552,-6.8895024 ]
+    },
+    "properties": {
+    "Kabupaten":"Tuban",
+    "urllokasi":"https://www.google.com/maps/place/Masjid+KH.+Hasyim+Asy%27ari/data=!4m7!3m6!1s0x2e77a3915bb5086b:0x9da35e5187c31a52!8m2!3d-6.8914662!4d112.0347303!16s%2Fg%2F11srmlj_f0!19sChIJawi1W5Gjdy4RUhrDh1Feo50?authuser=0&hl=en&rclk=1",
+    "Nama":"Masjid KH. Hasyim Asy'ari",
+    "Rating":5,
+    "Jenis":"Mosque",
+    "Alamat":"425M+9VF, Jl. Letda Sucipto No.108",
+    "W4Efsd 4":"",
+    "W4Efsd 5":"Open 24 hours",
+    "foto":"https://lh5.googleusercontent.com/p/AF1QipNc9-WZ_EvYS3EsgbYwkXmNgkdbxytSiF_c86iE=w163-h92-k-no"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 113.0523594,-7.8931125 ]
+    },
+    "properties": {
+    "Kabupaten":"Tuban",
+    "urllokasi":"https://www.google.com/maps/place/Masjid+Al+Manshurin+%28LDII%29/data=!4m7!3m6!1s0x2e77bd53c1da3f17:0x42f480d45b448d1c!8m2!3d-6.8931211!4d112.0523641!16s%2Fg%2F11dxl2j5z1!19sChIJFz_awVO9dy4RHI1EW9SA9EI?authuser=0&hl=en&rclk=1",
+    "Nama":"Masjid Al Manshurin (LDII)",
+    "Rating":4.8,
+    "Jenis":"Mosque",
+    "Alamat":"4342+QW5, Jl. Dr. Sutomo Gang Wijaya Kusuma",
+    "W4Efsd 4":"",
+    "W4Efsd 5":"Open 24 hours",
+    "foto":"https://lh4.googleusercontent.com/sVL6LBYUhXZ1OBqIfLVI_AG_jSrDhNxkduOU1NLFNP1UPqTN7TuzZZcq-T0Sr72E=w80-h106-k-no"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 112.0355438,-6.8889643 ]
+    },
+    "properties": {
+    "Kabupaten":"Tuban",
+    "urllokasi":"https://www.google.com/maps/place/MASJID+Luhur+Al+Mabrur+%28LDII%29/data=!4m7!3m6!1s0x2e77a2baa1c2b7e7:0x910c7213750d70c1!8m2!3d-6.8888573!4d112.0354344!16s%2Fg%2F11c0ph7j9f!19sChIJ57fCobqidy4RwXANdRNyDJE?authuser=0&hl=en&rclk=1",
+    "Nama":"MASJID Luhur Al Mabrur (LDII)",
+    "Rating":4.8,
+    "Jenis":"Mosque",
+    "Alamat":"426P+F53, Jl. Delima II, Perbon, Kec. Tuban, Kabupaten Tuban, Jawa Timur 62319",
+    "W4Efsd 4":"",
+    "W4Efsd 5":"Closes soon",
+    "foto":"https://lh5.googleusercontent.com/p/AF1QipNVAhmcSYMDktEgR4K7x_SPmB1_q0UaGgFkdkqc=w163-h92-k-no"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 112.0562344,-6.8908875 ]
+    },
+    "properties": {
+    "Kabupaten":"Tuban",
+    "urllokasi":"https://www.google.com/maps/place/Masjid+Baitur+Rohim/data=!4m7!3m6!1s0x2e77bd519aaaaaab:0x1f69b2650092a252!8m2!3d-6.8908952!4d112.056243!16s%2Fg%2F1pzrvc0zn!19sChIJq6qqmlG9dy4RUqKSAGWyaR8?authuser=0&hl=en&rclk=1",
+    "Nama":"Masjid Baitur Rohim",
+    "Rating":4.8,
+    "Jenis":"Mosque",
+    "Alamat":"4354+JFX, Jl. Sumur Gempol",
+    "W4Efsd 4":"",
+    "W4Efsd 5":"",
+    "foto":"https://lh5.googleusercontent.com/p/AF1QipNrunBM1ndF4LpQ_j90BFuR1a5GkOzrSiT_sFof=w122-h92-k-no"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 112.0350451,-6.8762226 ]
+    },
+    "properties": {
+    "Kabupaten":"Tuban",
+    "urllokasi":"https://www.google.com/maps/place/Masjid+Al+-+Ma%27mur/data=!4m7!3m6!1s0x2e77a2c609b9c07b:0xf1d49d3af44bd208!8m2!3d-6.875258!4d112.0347568!16s%2Fg%2F11c701gljx!19sChIJe8C5Ccaidy4RCNJL9Dqd1PE?authuser=0&hl=en&rclk=1",
+    "Nama":"Masjid Al - Ma'mur",
+    "Rating":4.8,
+    "Jenis":"Mosque",
+    "Alamat":"Blok Perum Permata Bonang",
+    "W4Efsd 4":"",
+    "W4Efsd 5":"",
+    "foto":"https://lh6.googleusercontent.com/PjXWU4lniXVDleWgclo4xVBQhlgqLQk11lOYwT99OH9aIkJ83MwLYVoEF7yILWIw=w122-h92-k-no"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 112.0394048,-6.896521 ]
+    },
+    "properties": {
+    "Kabupaten":"Tuban",
+    "urllokasi":"https://www.google.com/maps/place/Masjid+Al+Falah/data=!4m7!3m6!1s0x2e77a29dc746420b:0x5691aaac6f811205!8m2!3d-6.8995904!4d112.0163638!16s%2Fg%2F1pzth2rsz!19sChIJC0JGx52idy4RBRKBb6yqkVY?authuser=0&hl=en&rclk=1",
+    "Nama":"Masjid Al Falah",
+    "Rating":4.7,
+    "Jenis":"Mosque",
+    "Alamat":"Jl. DR. Wahidin Sudirohusodo No.99a, Latsari, Kec. Tuban, Kabupaten Tuban, Jawa Timur 62314",
+    "W4Efsd 4":"4228+5G9",
+    "W4Efsd 5":"Open 24 hours",
+    "foto":"https://lh3.googleusercontent.com/K7pu1dn-FQ3npXkMXywq8bsgTWRq-bHaIiRasERKhb2VFr30gUBxrxHu-uJT5C8=w163-h92-k-no"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 112.0471406,-6.9008125 ]
+    },
+    "properties": {
+    "Kabupaten":"Tuban",
+    "urllokasi":"https://www.google.com/maps/place/Masjid+Al-Amin/data=!4m7!3m6!1s0x2e7797ff95555555:0x9b5c6a715b53ba67!8m2!3d-6.9008163!4d112.0471482!16s%2Fg%2F1pzs29hrs!19sChIJVVVVlf-Xdy4RZ7pTW3FqXJs?authuser=0&hl=en&rclk=1",
+    "Nama":"Masjid Al-Amin",
+    "Rating":4.7,
+    "Jenis":"Mosque",
+    "Alamat":"32XW+MVC, Sidorejo, Tuban, Tuban Regency, East Java 62315",
+    "W4Efsd 4":"32XW+MVC",
+    "W4Efsd 5":"",
+    "foto":"https://lh4.googleusercontent.com/D_yaRnG7KbS6w4IzTlkHK7w3q9vnDjDMkMBbj9athLptvtu06otBAPSV10heZHE=w163-h92-k-no"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 112.1277031,-6.9055375 ]
+    },
+    "properties": {
+    "Kabupaten":"Tuban",
+    "urllokasi":"https://www.google.com/maps/place/Masjid+Asmoro+Qondi/data=!4m7!3m6!1s0x2e77bd6220586f6b:0xd0e614ebee4b8ec6!8m2!3d-6.9055344!4d112.1277077!16s%2Fg%2F11gds_cphg!19sChIJa29YIGK9dy4Rxo5L7usU5tA?authuser=0&hl=en&rclk=1",
+    "Nama":"Masjid Asmoro Qondi",
+    "Rating":4.7,
+    "Jenis":"Mosque",
+    "Alamat":"34VH+Q3P, Jl. Raya Daendles",
+    "W4Efsd 4":"",
+    "W4Efsd 5":"Open",
+    "foto":"https://lh5.googleusercontent.com/p/AF1QipOZh69alFbYoaoYfs1d9tKtJkJ3X0WQCjABIk3O=w122-h92-k-no"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 112.0548281,-6.8892375 ]
+    },
+    "properties": {
+    "Kabupaten":"Tuban",
+    "urllokasi":"https://www.google.com/maps/place/Masjid+A+l+Jabar/data=!4m7!3m6!1s0x2e77bd51e1c74b9b:0xb66b0d4110a8db64!8m2!3d-6.8892389!4d112.0548254!16s%2Fg%2F1pzspsmx4!19sChIJm0vH4VG9dy4RZNuoEEENa7Y?authuser=0&hl=en&rclk=1",
+    "Nama":"Masjid A l Jabar",
+    "Rating":5,
+    "Jenis":"Mosque",
+    "Alamat":"4363+8W4, Kingking, Tuban, Tuban Regency, East Java 62313",
+    "W4Efsd 4":"4363+8W4",
+    "W4Efsd 5":"Open 24 hours",
+    "foto":"https://lh5.googleusercontent.com/p/AF1QipNwI_GRCmQnnFC3avdlsFtZhlGwCXkZZq-5iI40=w80-h142-k-no"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 112.0685027,-6.9111999 ]
+    },
+    "properties": {
+    "Kabupaten":"Tuban",
+    "urllokasi":"https://www.google.com/maps/place/Masjid+An-Najiyah/data=!4m7!3m6!1s0x2e7797e806f6d567:0x5168e892bdcc3d82!8m2!3d-6.9087892!4d112.0709049!16s%2Fg%2F11c3p5cp_2!19sChIJZ9X2BuiXdy4Rgj3MvZLoaFE?authuser=0&hl=en&rclk=1",
+    "Nama":"Masjid An-Najiyah",
+    "Rating":4.9,
+    "Jenis":"Mosque",
+    "Alamat":"Dondong, Gedongombo, Semanding, Tuban Regency, East Java 62381",
+    "W4Efsd 4":"",
+    "W4Efsd 5":"Open 24 hours",
+    "foto":"https://lh5.googleusercontent.com/p/AF1QipPPM8kPxZgFEgq7aFstQxNdl-IKDPWMCdmxo9V3=w92-h92-k-no"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 112.0672031,-6.9026125 ]
+    },
+    "properties": {
+    "Kabupaten":"Tuban",
+    "urllokasi":"https://www.google.com/maps/place/Masjid+Sabilul+Muttaqin/data=!4m7!3m6!1s0x2e7797e13e5cbddd:0x219b6e286d4f7466!8m2!3d-6.9026176!4d112.0671952!16s%2Fg%2F1pzs424qz!19sChIJ3b1cPuGXdy4RZnRPbShumyE?authuser=0&hl=en&rclk=1",
+    "Nama":"Masjid Sabilul Muttaqin",
+    "Rating":4.9,
+    "Jenis":"Mosque",
+    "Alamat":"33W8+XV4, Kebonsari Gg. I",
+    "W4Efsd 4":"",
+    "W4Efsd 5":"",
+    "foto":"https://lh5.googleusercontent.com/p/AF1QipPRbuu0HQ6ILApbyr1QA7saj0G64E82iUOxCsKr=w115-h92-k-no"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 112.0101406,-6.8972625 ]
+    },
+    "properties": {
+    "Kabupaten":"Tuban",
+    "urllokasi":"https://www.google.com/maps/place/Masjid+Al-Mutamakkin/data=!4m7!3m6!1s0x2e77a2837ab5a871:0xdab7ef3f04cb8206!8m2!3d-6.8972615!4d112.0101452!16s%2Fg%2F11c54cvx20!19sChIJcai1eoOidy4RBoLLBD_vt9o?authuser=0&hl=en&rclk=1",
+    "Nama":"Masjid Al-Mutamakkin",
+    "Rating":4.7,
+    "Jenis":"Mosque",
+    "Alamat":"4236+33R, Bongkol 1, Sumurgung, Tuban, Tuban Regency, East Java 62319",
+    "W4Efsd 4":"",
+    "W4Efsd 5":"",
+    "foto":"https://lh5.googleusercontent.com/p/AF1QipPkUlI0Tu0HAEhuFVTDl4oDPGs42yUfTcfsvEMt=w199-h92-k-no"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 112.0928906,-6.8967125 ]
+    },
+    "properties": {
+    "Kabupaten":"Tuban",
+    "urllokasi":"https://www.google.com/maps/place/Masjid+Jami%27+Nurul+Ulaa+Panyuran/data=!4m7!3m6!1s0x2e77bd42eb41c501:0xe095374fe9413ffb!8m2!3d-6.8965821!4d112.0930603!16s%2Fg%2F11tt46dxvg!19sChIJAcVB60K9dy4R-z9B6U83leA?authuser=0&hl=en&rclk=1",
+    "Nama":"Masjid Jami' Nurul Ulaa Panyuran",
+    "Rating":4.9,
+    "Jenis":"Mosque",
+    "Alamat":"433V+856, Kepoh, Panyuran, Kec. Palang, Kabupaten Tuban, Jawa Timur 62391",
+    "W4Efsd 4":"",
+    "W4Efsd 5":"",
+    "foto":"https://lh5.googleusercontent.com/p/AF1QipNqKxN7_SLtXQbHTuWMbLlwFLmPHQYDdYtLxOwn=w122-h92-k-no"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 112.0612279,-6.8973384 ]
+    },
+    "properties": {
+    "Kabupaten":"Tuban",
+    "urllokasi":"https://www.google.com/maps/place/Masjid+Almuhdor/data=!4m7!3m6!1s0x2e77bd583821c3d9:0x96207332a695ab12!8m2!3d-6.8971289!4d112.0609422!16s%2Fg%2F11hd5dc38b!19sChIJ2cMhOFi9dy4REquVpjJzIJY?authuser=0&hl=en&rclk=1",
+    "Nama":"Masjid Almuhdor",
+    "Rating":4.9,
+    "Jenis":"Mosque",
+    "Alamat":"4336+49W, Gg. II B, Sidomulyo, Kec. Tuban, Kabupaten Tuban, Jawa Timur 62312",
+    "W4Efsd 4":"",
+    "W4Efsd 5":"",
+    "foto":"https://lh5.googleusercontent.com/p/AF1QipOFPuIYgyIkJU7N9rUjmxYI5sXkva0oNV16H7HD=w80-h122-k-no"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 112.043211,-6.87839 ]
+    },
+    "properties": {
+    "Kabupaten":"Tuban",
+    "urllokasi":"https://www.google.com/maps/place/Masjid+al-bayyinah/data=!4m7!3m6!1s0x2e77a3bfa1c38937:0xacf8bad37b3c2707!8m2!3d-6.8786148!4d112.0427769!16s%2Fg%2F11hzwfs9bh!19sChIJN4nDob-jdy4RByc8e9O6-Kw?authuser=0&hl=en&rclk=1",
+    "Nama":"Masjid al-bayyinah",
+    "Rating":5,
+    "Jenis":"Mosque",
+    "Alamat":"Jl. Kragan - Rembang - Surabaya No.703",
+    "W4Efsd 4":"",
+    "W4Efsd 5":"",
+    "foto":"https://lh5.googleusercontent.com/p/AF1QipMPAoEE8aTIgDrTfhNQWVCUGnNEJpmHbB74nCJM=w163-h92-k-no"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 112.0270338,-6.886187 ]
+    },
+    "properties": {
+    "Kabupaten":"Tuban",
+    "urllokasi":"https://www.google.com/maps/place/Masjid+Babus+Salam/data=!4m7!3m6!1s0x2e77a2bb6fbe7129:0x4757b1dd2eff53d2!8m2!3d-6.8886668!4d112.0305098!16s%2Fg%2F11c46156bg!19sChIJKXG-b7uidy4R0lP_Lt2xV0c?authuser=0&hl=en&rclk=1",
+    "Nama":"Masjid Babus Salam",
+    "Rating":4.6,
+    "Jenis":"Mosque",
+    "Alamat":"Jl. Letda Sucipto No.211, Perbon, Kec. Tuban, Kabupaten Tuban, Jawa Timur 62310",
+    "W4Efsd 4":"Jl. Letda Sucipto No.211",
+    "W4Efsd 5":"",
+    "foto":"https://lh5.googleusercontent.com/p/AF1QipM9_S1yZUZUC8v-7wLun6xzxC201EOhnlzeasPp=w80-h106-k-no"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 112.0759219,-6.8977875 ]
+    },
+    "properties": {
+    "Kabupaten":"Tuban",
+    "urllokasi":"https://www.google.com/maps/place/Masjid+Al+Mujaddid/data=!4m7!3m6!1s0x2e77bd61c46d1553:0x81ee6a1410fb9672!8m2!3d-6.8977773!4d112.075916!16s%2Fg%2F11c6lfhydt!19sChIJUxVtxGG9dy4Rcpb7EBRq7oE?authuser=0&hl=en&rclk=1",
+    "Nama":"Masjid Al Mujaddid",
+    "Rating":4.5,
+    "Jenis":"Mosque",
+    "Alamat":"432G+V9M, Sukolilo Gg. Cuci Mobil",
+    "W4Efsd 4":"",
+    "W4Efsd 5":"Open 24 hours",
+    "foto":"https://lh5.googleusercontent.com/p/AF1QipOJXl-8H6Jta-yH2Fx4T0ww5wP1xSzr1DXVgeAi=w122-h92-k-no"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 112.0521173,-6.8948628 ]
+    },
+    "properties": {
+    "Kabupaten":"Tuban",
+    "urllokasi":"https://www.google.com/maps/place/Masjid+Mujahidin/data=!4m7!3m6!1s0x2e77bd54734d28d3:0x3c1b069173096882!8m2!3d-6.8948322!4d112.052031!16s%2Fg%2F11c0qhk2ql!19sChIJ0yhNc1S9dy4RgmgJc5EGGzw?authuser=0&hl=en&rclk=1",
+    "Nama":"Masjid Mujahidin",
+    "Rating":4.6,
+    "Jenis":"Mosque",
+    "Alamat":"Gg. Pringgading No.9",
+    "W4Efsd 4":"",
+    "W4Efsd 5":"Open 24 hours",
+    "foto":"https://lh5.googleusercontent.com/p/AF1QipMXRHVri-c_USOHmeUc0cH9Z4XcY_ftcGR_pWCT=w163-h92-k-no"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 112.0247684,-6.8847444 ]
+    },
+    "properties": {
+    "Kabupaten":"Tuban",
+    "urllokasi":"https://www.google.com/maps/place/Masjid+%22Nurul+Huda%22+Mondokan/data=!4m7!3m6!1s0x2e77a2be16b44bc5:0x165cfa1af9611f2b!8m2!3d-6.8847172!4d112.0248279!16s%2Fg%2F11cnx8m9sc!19sChIJxUu0Fr6idy4RKx9h-Rr6XBY?authuser=0&hl=en&rclk=1",
+    "Nama":"Masjid \"Nurul Huda\" Mondokan",
+    "Rating":4.6,
+    "Jenis":"Place of worship",
+    "Alamat":"Jl. Letda Sucipto No.204",
+    "W4Efsd 4":"",
+    "W4Efsd 5":"",
+    "foto":"https://lh5.googleusercontent.com/p/AF1QipOiLs-SMXXDrl5fBNRzMk2sKXKynUGWmcp4XD2S=w80-h106-k-no"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 112.0165064,-6.8837951 ]
+    },
+    "properties": {
+    "Kabupaten":"Tuban",
+    "urllokasi":"https://www.google.com/maps/place/Masjid+Perumahan+Dinas+Semen+Gresik+AT-TAQWA/data=!4m7!3m6!1s0x2e77a293b7fc6a95:0x5dba0cbfefc3c1ea!8m2!3d-6.884864!4d112.0153926!16s%2Fg%2F11d_7qkcsk!19sChIJlWr8t5Oidy4R6sHD778Mul0?authuser=0&hl=en&rclk=1",
+    "Nama":"Masjid Perumahan Dinas Semen Gresik AT-TAQWA",
+    "Rating":4.6,
+    "Jenis":"Mosque",
+    "Alamat":"Jl. Raya Bogorejo No.14, Kuthi, Bogorejo, Kec. Merakurak, Kabupaten Tuban, Jawa Timur 62355",
+    "W4Efsd 4":"Jl. Raya Bogorejo No.14",
+    "W4Efsd 5":"Open",
+    "foto":"https://lh5.googleusercontent.com/p/AF1QipOUHXMBy5Y8MoHp_r_Ea01eokquAZx-MNt6YE0F=w122-h92-k-no"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 112.0446562,-6.8922539 ]
+    },
+    "properties": {
+    "Kabupaten":"Tuban",
+    "urllokasi":"https://www.google.com/maps/place/Masjid+Manba%27ul+Huda+Tuban/data=!4m7!3m6!1s0x2e77a2ad1ed81b93:0x9ec6533a7dd0cc8b!8m2!3d-6.8919652!4d112.0459553!16s%2Fg%2F11bz0d_1pk!19sChIJkxvYHq2idy4Ri8zQfTpTxp4?authuser=0&hl=en&rclk=1",
+    "Nama":"Masjid Manba'ul Huda Tuban",
+    "Rating":4.6,
+    "Jenis":"Mosque",
+    "Alamat":"Latsari, Tuban, Tuban Regency, East Java 62314",
+    "W4Efsd 4":"",
+    "W4Efsd 5":"Open 24 hours",
+    "foto":"https://lh5.googleusercontent.com/p/AF1QipOqkx6KW8-efb-VPLcasLnNg0fnl7IkawXuE59M=w137-h92-k-no"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 112.0032031,-6.8323375 ]
+    },
+    "properties": {
+    "Kabupaten":"Tuban",
+    "urllokasi":"https://www.google.com/maps/place/Masjid+Baiturrohman/data=!4m7!3m6!1s0x2e77a38f6aaaaaab:0x7cc883716816a704!8m2!3d-6.8323265!4d112.0031906!16s%2Fg%2F1pzsjy2fx!19sChIJq6qqao-jdy4RBKcWaHGDyHw?authuser=0&hl=en&rclk=1",
+    "Nama":"Masjid Baiturrohman",
+    "Rating":4.7,
+    "Jenis":"Mosque",
+    "Alamat":"5293+378, Desa Beji, Jenu, Krajan, Beji, Kec. Tuban, Kabupaten Tuban, Jawa Timur 62352",
+    "W4Efsd 4":"5293+378, Desa Beji, Jenu",
+    "W4Efsd 5":"",
+    "foto":"https://lh5.googleusercontent.com/p/AF1QipM0Z-lh1SURHalf_YYyOnM05IWWUeSqK2yxgacW=w80-h106-k-no"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 112.0718402,-6.9082402 ]
+    },
+    "properties": {
+    "Kabupaten":"Tuban",
+    "urllokasi":"https://www.google.com/maps/place/Masjid+Ath+Thur/data=!4m7!3m6!1s0x2e7797e7be16c659:0x9333f2a1d2916f13!8m2!3d-6.9073196!4d112.0697859!16s%2Fg%2F1hm3djxm3!19sChIJWcYWvueXdy4RE2-R0qHyM5M?authuser=0&hl=en&rclk=1",
+    "Nama":"Masjid Ath Thur",
+    "Rating":4.6,
+    "Jenis":"Mosque",
+    "Alamat":"Jl. Cokroaminoto, Dondong, Gedongombo, Kec. Semanding, Kabupaten Tuban, Jawa Timur 62381",
+    "W4Efsd 4":"",
+    "W4Efsd 5":"",
+    "foto":"https://lh5.googleusercontent.com/p/AF1QipMXxsDob89mC4rfyK5V0tOvuPTHbcoyKM90TsOQ=w122-h92-k-no"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 112.0775469,-6.9005875 ]
+    },
+    "properties": {
+    "Kabupaten":"Tuban",
+    "urllokasi":"https://www.google.com/maps/place/Masjid+Darul+Ilmi+IAINU+Tuban/data=!4m7!3m6!1s0x2e7797441b7a1ccb:0x9c5f34cee8285c47!8m2!3d-6.900575!4d112.0775615!16s%2Fg%2F11l_f_3kcp!19sChIJyxx6G0SXdy4RR1wo6M40X5w?authuser=0&hl=en&rclk=1",
+    "Nama":"Masjid Darul Ilmi IAINU Tuban",
+    "Rating":5,
+    "Jenis":"Mosque",
+    "Alamat":"33XH+Q27, Sukolilo, Tuban, Tuban Regency, East Java 62318",
+    "W4Efsd 4":"",
+    "W4Efsd 5":"",
+    "foto":"https://lh5.googleusercontent.com/p/AF1QipNogIJzbBg3nWuaIwq3krtczLr9Rk9sW6bOA5Ln=w122-h92-k-no"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 112.0738405,-6.901218 ]
+    },
+    "properties": {
+    "Kabupaten":"Tuban",
+    "urllokasi":"https://www.google.com/maps/place/Masjid+Al+Manshur/data=!4m7!3m6!1s0x2e7797dd9b1105a7:0x9d0980490758215d!8m2!3d-6.9053866!4d112.0722658!16s%2Fg%2F11bw7hfcbh!19sChIJpwURm92Xdy4RXSFYB0mACZ0?authuser=0&hl=en&rclk=1",
+    "Nama":"Masjid Al Manshur",
+    "Rating":4.4,
+    "Jenis":"Mosque",
+    "Alamat":"Jalan Pahlawan, Gg. Selorejo 2, Semanding, Wire, Gedongombo, Kec. Tuban, Kabupaten Tuban, Jawa Timur 62381",
+    "W4Efsd 4":"Jalan Pahlawan, Gg. Selorejo 2, Semanding",
+    "W4Efsd 5":"",
+    "foto":"https://lh5.googleusercontent.com/p/AF1QipN28woFHMmcMNljyf8WT-yrqAXwLE1w91I0jRet=w381-h92-k-no"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 111.0570781,-7.8959625 ]
+    },
+    "properties": {
+    "Kabupaten":"Tuban",
+    "urllokasi":"https://www.google.com/maps/place/Masjid+Al+Hidayah/data=!4m7!3m6!1s0x2e77bd571b15ed0d:0xdb4993c2f398f8d8!8m2!3d-6.8959699!4d112.0570633!16s%2Fg%2F11c7szj4b7!19sChIJDe0VG1e9dy4R2PiY88KTSds?authuser=0&hl=en&rclk=1",
+    "Nama":"Masjid Al Hidayah",
+    "Rating":4.7,
+    "Jenis":"Mosque",
+    "Alamat":"4334+JR8, Jl. Slamet Riyadi, RW.01",
+    "W4Efsd 4":"",
+    "W4Efsd 5":"",
+    "foto":"https://lh5.googleusercontent.com/mBjGFiSfkDWb4SDmzLyVbNW3xCj4aAMUvFr7z55i-AlDGdSUgby4RMakstvSNCjQ=w163-h92-k-no"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 112.0714136,-6.8982034 ]
+    },
+    "properties": {
+    "Kabupaten":"Tuban",
+    "urllokasi":"https://www.google.com/maps/place/Masjid+Nurul+Huda+Al-Ihsan/data=!4m7!3m6!1s0x2e77bd5a717445fd:0x6908dd4097c4c985!8m2!3d-6.8981545!4d112.0714672!16s%2Fg%2F11k041bvtb!19sChIJ_UV0cVq9dy4RhcnEl0DdCGk?authuser=0&hl=en&rclk=1",
+    "Nama":"Masjid Nurul Huda Al-Ihsan",
+    "Rating":4.8,
+    "Jenis":"Mosque",
+    "Alamat":"Jl. Pattimura No.28, Baturetno, Kec. Tuban, Kabupaten Tuban, Jawa Timur 62318",
+    "W4Efsd 4":"",
+    "W4Efsd 5":"",
+    "foto":"https://lh5.googleusercontent.com/p/AF1QipMVVc32rMfAyEGEov_67o-8BRohHkX9oqY5ZcUU=w111-h92-k-no"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 112.048216,-6.9065976 ]
+    },
+    "properties": {
+    "Kabupaten":"Tuban",
+    "urllokasi":"https://www.google.com/maps/place/Masjid+Daarul+Muttaqin/data=!4m7!3m6!1s0x2e7798038722b387:0xa43fe37aaabe898c!8m2!3d-6.9070768!4d112.041816!16s%2Fg%2F11gfn_kg2r!19sChIJh7MihwOYdy4RjIm-qnrjP6Q?authuser=0&hl=en&rclk=1",
+    "Nama":"Masjid Daarul Muttaqin",
+    "Rating":4.8,
+    "Jenis":"Mosque",
+    "Alamat":"32VR+5P8, Gg. Sejahtera I Jl. Karang Indah Timur",
+    "W4Efsd 4":"",
+    "W4Efsd 5":"",
+    "foto":"https://lh5.googleusercontent.com/p/AF1QipM6G4nUiXsTxv-GgMB3KRfriu3K2_ipOSuArQFU=w163-h92-k-no"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 112.0675697,-6.8998239 ]
+    },
+    "properties": {
+    "Kabupaten":"Tuban",
+    "urllokasi":"https://www.google.com/maps/place/Tomb+of+Sunan+Bonang/data=!4m7!3m6!1s0x2e77bd59236e67f9:0xebd53c7d4261659f!8m2!3d-6.8947374!4d112.063327!16s%2Fg%2F1hm1_n43s!19sChIJ-WduI1m9dy4Rn2VhQn081es?authuser=0&hl=en&rclk=1",
+    "Nama":"Tomb of Sunan Bonang",
+    "Rating":4.5,
+    "Jenis":"Cemetery",
+    "Alamat":"Gg. IV, Kutorejo, Kec. Tuban, Kabupaten Tuban, Jawa Timur 62311",
+    "W4Efsd 4":"Well-known mausoleum & pilgrimage site",
+    "W4Efsd 5":"Open 24 hours",
+    "foto":"https://lh5.googleusercontent.com/p/AF1QipNBRx1FMqcq6mAttlP0LMfAHPwv7oO9nWFf1VS3=w163-h92-k-no"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 112.0378906,-6.9039625 ]
+    },
+    "properties": {
+    "Kabupaten":"Tuban",
+    "urllokasi":"https://www.google.com/maps/place/Masjid+Jabal+Nur+Bukit+Karang/data=!4m7!3m6!1s0x2e7798064286b301:0xb6f0c2dbcd639314!8m2!3d-6.9039748!4d112.0378963!16s%2Fg%2F11c73gmvs0!19sChIJAbOGQgaYdy4RFJNjzdvC8LY?authuser=0&hl=en&rclk=1",
+    "Nama":"Masjid Jabal Nur Bukit Karang",
+    "Rating":4.7,
+    "Jenis":"Mosque",
+    "Alamat":"32WQ+C56, Perumahan Bukit Karang, Semanding, Bukit Karang, Karang, Kec. Semanding, Kabupaten Tuban, Jawa Timur 62381",
+    "W4Efsd 4":"32WQ+C56, Perumahan Bukit Karang, Semanding",
+    "W4Efsd 5":"Open 24 hours",
+    "foto":"https://lh5.googleusercontent.com/p/AF1QipNmj653BP3W7QG_xI75q5vS1ipP2VrdY9g5Rt8=w204-h92-k-no"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 111.9772969,-6.7856125 ]
+    },
+    "properties": {
+    "Kabupaten":"Tuban",
+    "urllokasi":"https://www.google.com/maps/place/Masjid+Baiturohman/data=!4m7!3m6!1s0x2e77a44a66608305:0xd58ea7fb4c98960b!8m2!3d-6.7856172!4d111.9773002!16s%2Fg%2F11gbp1ymw0!19sChIJBYNgZkqkdy4RC5aYTPunjtU?authuser=0&hl=en&rclk=1",
+    "Nama":"Masjid Baiturohman",
+    "Rating":4.9,
+    "Jenis":"Mosque",
+    "Alamat":"6X7G+QW3, Jalan Raya, Melangwe, Mentoso, Jenu, Tuban Regency, East Java 62352",
+    "W4Efsd 4":"",
+    "W4Efsd 5":"Open 24 hours",
+    "foto":"https://lh5.googleusercontent.com/p/AF1QipNMCjxXea-qhqZx0Irsp8DuEa9leKNf2-6HAHHS=w151-h92-k-no"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 112.0565148,-6.8894694 ]
+    },
+    "properties": {
+    "Kabupaten":"Tuban",
+    "urllokasi":"https://www.google.com/maps/place/Masjid+Ath-Thoyyibah/data=!4m7!3m6!1s0x2e77bdcbc2e6e391:0xa1b2a317bef135a2!8m2!3d-6.8894694!4d112.0565148!16s%2Fg%2F11smxdbz2w!19sChIJkePmwsu9dy4RojXxvhejsqE?authuser=0&hl=en&rclk=1",
+    "Nama":"Masjid Ath-Thoyyibah",
+    "Rating":5,
+    "Jenis":"Mosque",
+    "Alamat":"Jl. Panglima Sudirman No.294",
+    "W4Efsd 4":"",
+    "W4Efsd 5":"Open 24 hours",
+    "foto":"https://lh5.googleusercontent.com/p/AF1QipMRAPT4frHwfaUbbGQ37RY_gSAGb7n-5HZLEUWJ=w204-h92-k-no"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 111.9997845,-6.830152 ]
+    },
+    "properties": {
+    "Kabupaten":"Tuban",
+    "urllokasi":"https://www.google.com/maps/place/Masjid+Jami+Rohmat/data=!4m7!3m6!1s0x2e77a40a0d41b067:0x8a8b9aa57f00d8ab!8m2!3d-6.8224145!4d111.9715228!16s%2Fg%2F1hm4wbq9j!19sChIJZ7BBDQqkdy4Rq9gAf6Wai4o?authuser=0&hl=en&rclk=1",
+    "Nama":"Masjid Jami Rohmat",
+    "Rating":4.5,
+    "Jenis":"Mosque",
+    "Alamat":"5XHC+2JJ, Jl. Raya Jenu, Bogang, Beji, Kec. Jenu, Kabupaten Tuban, Jawa Timur 62352",
+    "W4Efsd 4":"5XHC+2JJ, Jl. Raya Jenu",
+    "W4Efsd 5":"",
+    "foto":"https://lh5.googleusercontent.com/p/AF1QipPK0BIH00__SwBn2EVWjdkycDic4wnLaf7j4Ntk=w163-h92-k-no"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 111.9909536,-6.8276539 ]
+    },
+    "properties": {
+    "Kabupaten":"Tuban",
+    "urllokasi":"https://www.google.com/maps/place/Masjid+Astana+Jenu/data=!4m7!3m6!1s0x2e77a3726f53a131:0xe1094765f2164330!8m2!3d-6.8374285!4d112.0080747!16s%2Fg%2F11bvt8myfv!19sChIJMaFTb3Kjdy4RMEMW8mVHCeE?authuser=0&hl=en&rclk=1",
+    "Nama":"Masjid Astana Jenu",
+    "Rating":4.6,
+    "Jenis":"Mosque",
+    "Alamat":"Krajan, Jenu, Tuban Regency, East Java 62352",
+    "W4Efsd 4":"",
+    "W4Efsd 5":"",
+    "foto":"https://lh5.googleusercontent.com/p/AF1QipNCF9o9HXABTTXAjdb8MIe0orCq9ml4rvZwsqVT=w122-h92-k-no"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 112.0466819,-6.8967903 ]
+    },
+    "properties": {
+    "Kabupaten":"Tuban",
+    "urllokasi":"https://www.google.com/maps/place/Masjid+Darul+Maghfiroh/data=!4m7!3m6!1s0x2e77a35910ea03d5:0x21753b7c55a39a32!8m2!3d-6.8986685!4d112.0465528!16s%2Fg%2F11gkwpd79f!19sChIJ1QPqEFmjdy4RMpqjVXw7dSE?authuser=0&hl=en&rclk=1",
+    "Nama":"Masjid Darul Maghfiroh",
+    "Rating":4.9,
+    "Jenis":"Mosque",
+    "Alamat":"422W+GJM, Jl. Pramuka, Sidorejo, Ronggomulyo, Kec. Tuban, Kabupaten Tuban, Jawa Timur 62315",
+    "W4Efsd 4":"",
+    "W4Efsd 5":"Open 24 hours",
+    "foto":"https://lh5.googleusercontent.com/p/AF1QipPVdgSKICYRNF7jjjfixb3GSlWH8Z2Vbhh1VO3F=w80-h106-k-no"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 112.0626303,-6.8931312 ]
+    },
+    "properties": {
+    "Kabupaten":"Tuban",
+    "urllokasi":"https://www.google.com/maps/place/Masjid+Nursalim/data=!4m7!3m6!1s0x2e77bd5bcd45d5d1:0x445ab0db1c1aae54!8m2!3d-6.8931312!4d112.0626303!16s%2Fg%2F11g6_wnws4!19sChIJ0dVFzVu9dy4RVK4aHNuwWkQ?authuser=0&hl=en&rclk=1",
+    "Nama":"Masjid Nursalim",
+    "Rating":4.9,
+    "Jenis":"Mosque",
+    "Alamat":"Jl. Pemuda No.2, Sidomulyo, Kec. Tuban, Kabupaten Tuban, Jawa Timur 62312",
+    "W4Efsd 4":"",
+    "W4Efsd 5":"",
+    "foto":"https://lh6.googleusercontent.com/QH7hJGntkuuyyndV8gAID_UzpzRWj1cl00qSPs6z53kzpF-CmuKCGnWj_Q02-gFd=w122-h92-k-no"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 112.0620781,-6.9140875 ]
+    },
+    "properties": {
+    "Kabupaten":"Tuban",
+    "urllokasi":"https://www.google.com/maps/place/Masjid+Bejagung/data=!4m7!3m6!1s0x2e7797edd5dfef99:0xf907a7046c4152a3!8m2!3d-6.9140853!4d112.0620736!16s%2Fg%2F11c5x5cw8j!19sChIJme_f1e2Xdy4Ro1JBbASnB_k?authuser=0&hl=en&rclk=1",
+    "Nama":"Masjid Bejagung",
+    "Rating":4.8,
+    "Jenis":"Mosque",
+    "Alamat":"33P6+9R8, Krajan, Bejagung, Kec. Semanding, Kabupaten Tuban, Jawa Timur 62381",
+    "W4Efsd 4":"",
+    "W4Efsd 5":"Open 24 hours",
+    "foto":"https://lh5.googleusercontent.com/p/AF1QipOqJCj9o-yRaBE3uh7L6Y3IEp4Y4481EYAQuVqv=w122-h92-k-no"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 112.0109531,-6.9069375 ]
+    },
+    "properties": {
+    "Kabupaten":"Tuban",
+    "urllokasi":"https://www.google.com/maps/place/Masjid+Al-Karomah/data=!4m7!3m6!1s0x2e7799f55dfb37b3:0xf57f1bfd1ce49de6!8m2!3d-6.9069365!4d112.0109579!16s%2Fg%2F11gl2133h7!19sChIJszf7XfWZdy4R5p3kHP0bf_U?authuser=0&hl=en&rclk=1",
+    "Nama":"Masjid Al-Karomah",
+    "Rating":3.6,
+    "Jenis":"Mosque",
+    "Alamat":"32V6+69G, Dusun Winong, Sugiharjo, Tuban, Tuban Regency, East Java 62355",
+    "W4Efsd 4":"32V6+69G",
+    "W4Efsd 5":"Open 24 hours",
+    "foto":"https://lh5.googleusercontent.com/p/AF1QipNlUBb0B4Rc7qnb5ICwxL3S9v2j0zsdgQul2sHD=w122-h92-k-no"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 112.0400781,-6.8937875 ]
+    },
+    "properties": {
+    "Kabupaten":"Tuban",
+    "urllokasi":"https://www.google.com/maps/place/Masjid+Manarul+Walidain/data=!4m7!3m6!1s0x2e77a2aec00d50e3:0xb4a581cb8201d337!8m2!3d-6.8937845!4d112.0400777!16s%2Fg%2F11c5_xfvn2!19sChIJ41ANwK6idy4RN9MBgsuBpbQ?authuser=0&hl=en&rclk=1",
+    "Nama":"Masjid Manarul Walidain",
+    "Rating":5,
+    "Jenis":"Mosque",
+    "Alamat":"424R+F2P, Latsari, Tuban, Tuban Regency, East Java 62314",
+    "W4Efsd 4":"",
+    "W4Efsd 5":"",
+    "foto":"https://lh5.googleusercontent.com/p/AF1QipNARwxKzAIVxW3KZ2fLzMjJrDFDt1Bl3_6zMQzS=w122-h92-k-no"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 112.0804259,-6.9156472 ]
+    },
+    "properties": {
+    "Kabupaten":"Tuban",
+    "urllokasi":"https://www.google.com/maps/place/Wisata+Religi%2FPonpes+Perut+Bumi/data=!4m7!3m6!1s0x2e7797dcebcaf94d:0x6739dfc0ab633feb!8m2!3d-6.9064049!4d112.0758912!16s%2Fg%2F11g7c_pzv1!19sChIJTfnK69yXdy4R6z9jq8DfOWc?authuser=0&hl=en&rclk=1",
+    "Nama":"Wisata Religi/Ponpes Perut Bumi",
+    "Rating":4.4,
+    "Jenis":"Tourist attraction",
+    "Alamat":"Wire, Gedongombo, Semanding, Tuban Regency, East Java 62381",
+    "W4Efsd 4":"",
+    "W4Efsd 5":"Open 24 hours",
+    "foto":"https://lh5.googleusercontent.com/p/AF1QipMMdQdfuicTtY1PZ37z7X2LXGWbNGtY_RLZKsWO=w122-h92-k-no"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 112.0641382,-6.8964992 ]
+    },
+    "properties": {
+    "Kabupaten":"Tuban",
+    "urllokasi":"https://www.google.com/maps/place/Masjid+Nurul+Iman/data=!4m7!3m6!1s0x2e77bd5910000001:0x531254e12f65029b!8m2!3d-6.8957506!4d112.0632863!16s%2Fg%2F1pzwq8cm0!19sChIJAQAAEFm9dy4RmwJlL-FUElM?authuser=0&hl=en&rclk=1",
+    "Nama":"Masjid Nurul Iman",
+    "Rating":3,
+    "Jenis":"Mosque",
+    "Alamat":"Jl. KH. Mustain No.8, Kutorejo, Kec. Tuban, Kabupaten Tuban, Jawa Timur 62311",
+    "W4Efsd 4":"",
+    "W4Efsd 5":"",
+    "foto":"https://lh5.googleusercontent.com/p/AF1QipOrytPzA6OVn-a6PFQWyuwR9f6qyU9L-5x89eiR=w80-h142-k-no"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 112.0208095,-6.8632608 ]
+    },
+    "properties": {
+    "Kabupaten":"Tuban",
+    "urllokasi":"https://www.google.com/maps/place/MASJID+ATH+-+THARIQ/data=!4m7!3m6!1s0x2e77a3799e22573d:0x94ca7e1d501472ac!8m2!3d-6.8718195!4d112.0370812!16s%2Fg%2F11y8fc001f!19sChIJPVcinnmjdy4RrHIUUB1-ypQ?authuser=0&hl=en&rclk=1",
+    "Nama":"MASJID ATH - THARIQ",
+    "Rating":5,
+    "Jenis":"Mosque",
+    "Alamat":"Jabung, Sugihwaras, Jenu, Tuban Regency, East Java",
+    "W4Efsd 4":"",
+    "W4Efsd 5":"",
+    "foto":"https://lh5.googleusercontent.com/p/AF1QipOayvFOmL_dndLorYZ9WhKqVaPSYA_bRCqqYmcO=w80-h106-k-no"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 112.032442,-6.9299846 ]
+    },
+    "properties": {
+    "Kabupaten":"Tuban",
+    "urllokasi":"https://www.google.com/maps/place/Masjid+Baitul+Makmur+%28LDII%29/data=!4m7!3m6!1s0x2e7797dc0a1a50f3:0xd627250daaf52614!8m2!3d-6.9290648!4d112.048948!16s%2Fg%2F11f72_xn4b!19sChIJ81AaCtyXdy4RFCb1qg0lJ9Y?authuser=0&hl=en&rclk=1",
+    "Nama":"Masjid Baitul Makmur (LDII)",
+    "Rating":5,
+    "Jenis":"Mosque",
+    "Alamat":"32CX+9HG, Jarum, Prunggahan Kulon, Kec. Semanding, Kabupaten Tuban, Jawa Timur 62381",
+    "W4Efsd 4":"",
+    "W4Efsd 5":"Open 24 hours",
+    "foto":"https://lh5.googleusercontent.com/p/AF1QipM4SLr-wvP19qyd9qcPzkt-ifwBlFerQnhwFtzd=w122-h92-k-no"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 112.0569634,-6.896018 ]
+    },
+    "properties": {
+    "Kabupaten":"Tuban",
+    "urllokasi":"https://www.google.com/maps/place/Masjid+Al-Hidayah/data=!4m7!3m6!1s0x2e77bd56b8999ff9:0xb363c7d41adebbe0!8m2!3d-6.8951572!4d112.055125!16s%2Fg%2F1pzvn4748!19sChIJ-Z-ZuFa9dy4R4LveGtTHY7M?authuser=0&hl=en&rclk=1",
+    "Nama":"Masjid Al-Hidayah",
+    "Rating":5,
+    "Jenis":"Mosque",
+    "Alamat":"4334+W2Q, Jalan Piere Tendehan, Ronggomulyo, Kec. Tuban, Kabupaten Tuban, Jawa Timur 62313",
+    "W4Efsd 4":"",
+    "W4Efsd 5":"",
+    "foto":"https://lh5.googleusercontent.com/p/AF1QipN4amiKs6ZXqsqIeMF2eNgY3lCury5izKrBTKf0=w122-h92-k-no"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 111.7871094,-6.9733375 ]
+    },
+    "properties": {
+    "Kabupaten":"Tuban",
+    "urllokasi":"https://www.google.com/maps/place/At-Taqwa+Mosque/data=!4m7!3m6!1s0x2e777415474114e3:0xa58f0df9c05bd77a!8m2!3d-6.9733432!4d111.7871073!16s%2Fg%2F11bc7rspd1!19sChIJ4xRBRxV0dy4RetdbwPkNj6U?authuser=0&hl=en&rclk=1",
+    "Nama":"At-Taqwa Mosque",
+    "Rating":4.6,
+    "Jenis":"Mosque",
+    "Alamat":"2QGP+MR9, Jojogan, Mulyoagung, Kec. Singgahan, Kabupaten Tuban, Jawa Timur 62361",
+    "W4Efsd 4":"2QGP+MR9",
+    "W4Efsd 5":"",
+    "foto":"https://lh5.googleusercontent.com/p/AF1QipPTgt-ZeJ9q7HKpZdSsCgcSlln2_x-E9E4_TOwP=w163-h92-k-no"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 112.0545657,-6.9028544 ]
+    },
+    "properties": {
+    "Kabupaten":"Tuban",
+    "urllokasi":"https://www.google.com/maps/place/Masjid+Al+Amin+Dul+Karmadji/data=!4m7!3m6!1s0x2e7797fc3fa40d33:0x9158c0e0e5453c83!8m2!3d-6.9029285!4d112.0549702!16s%2Fg%2F11gg6c4jvt!19sChIJMw2kP_yXdy4RgzxF5eDAWJE?authuser=0&hl=en&rclk=1",
+    "Nama":"Masjid Al Amin Dul Karmadji",
+    "Rating":4.3,
+    "Jenis":"Mosque",
+    "Alamat":"33W3+RXH, Gg. Sadig I, Sidorejo, Kec. Tuban, Kabupaten Tuban, Jawa Timur 62315",
+    "W4Efsd 4":"",
+    "W4Efsd 5":"",
+    "foto":"https://lh5.googleusercontent.com/p/AF1QipO_4ewO6IC2XAkaZPwJiwlCYLWTnDPw-uP86-J4=w80-h173-k-no"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 112.0405781,-6.8903875 ]
+    },
+    "properties": {
+    "Kabupaten":"Tuban",
+    "urllokasi":"https://www.google.com/maps/place/Musholla+Samsat+Tuban/data=!4m7!3m6!1s0x2e77a3eaff74b66f:0x8e80a2e56b4a8f39!8m2!3d-6.8903831!4d112.0405725!16s%2Fg%2F11gw2_ddrl!19sChIJb7Z0_-qjdy4ROY9Ka-WigI4?authuser=0&hl=en&rclk=1",
+    "Nama":"Musholla Samsat Tuban",
+    "Rating":5,
+    "Jenis":"Mosque",
+    "Alamat":"425R+R6W, Latsari, Tuban, Tuban Regency, East Java 62310",
+    "W4Efsd 4":"",
+    "W4Efsd 5":"",
+    "foto":"https://lh5.googleusercontent.com/p/AF1QipOg33sA91dO-rifkMPBa7eCjiiGhW-pc5wgWf1G=w80-h106-k-no"
+    }
+  }
+]
+}
