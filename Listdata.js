@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
 import { faChevronRight, faSearch, faMosque, faRoute } from '@fortawesome/free-solid-svg-icons';
 
 const Listdata = () => {
-  const jsonUrl = 'http://192.168.199.144:3000/mahasiswa';
+  const jsonUrl = 'http://192.168.123.166:3000/mahasiswa';
   const [isLoading, setLoading] = useState(true);
   const [dataUser, setDataUser] = useState([]);
   const [filteredData, setFilteredData] = useState([]);

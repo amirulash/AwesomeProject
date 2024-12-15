@@ -1,14 +1,6 @@
 {
   "mahasiswa": [
     {
-      "id": "1",
-      "name": "The Great Mosque Of Tuban",
-      "rating": 4.8,
-      "address": "4347+2G4, Jl. Bonang, Kutorejo, Kec. Tuban, Kabupaten Tuban, Jawa Timur 62311",
-      "latitude": -6.8947246,
-      "longitude": 112.0644795
-    },
-    {
       "id": "4",
       "name": "Masji Baittul Makmur",
       "rating": 4.8,
@@ -39,14 +31,6 @@
       "address": "Jl. Sunan Kudus No.01, Latsari, Kec. Tuban, Kabupaten Tuban, Jawa Timur 62314",
       "latitude": -6.893703,
       "longitude": 112.0440204
-    },
-    {
-      "id": "11",
-      "name": "Masjid Aastana",
-      "rating": 4.7,
-      "address": "4337+M8V, Kelurahan",
-      "latitude": -6.8957625,
-      "longitude": 110.0632969
     },
     {
       "id": "12",

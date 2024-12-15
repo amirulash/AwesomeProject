@@ -126,7 +126,7 @@ const HomeScreen = ({ navigation }) => {
       <View style={styles.featureCardsContainer}>
         <View style={styles.featureCard}>
           <Image
-            source={require('./peta/ListDataScreen1.jpg')}  // Gambar fitur halaman map
+            source={require('./peta/mapscreen.jpg')}  // Gambar fitur halaman map
             style={styles.featureImage}
           />
           <Text style={styles.featureTitle}>Halaman Map</Text>
@@ -136,7 +136,7 @@ const HomeScreen = ({ navigation }) => {
         </View>
         <View style={styles.featureCard}>
           <Image
-            source={require('./peta/ListDataScreen2.jpg')}  // Gambar fitur tambah data
+            source={require('./peta/tambahdata.jpg')}  // Gambar fitur tambah data
             style={styles.featureImage}
           />
           <Text style={styles.featureTitle}>Fitur Tambah Data</Text>
@@ -149,7 +149,7 @@ const HomeScreen = ({ navigation }) => {
       <View style={styles.featureCardsContainer}>
         <View style={styles.featureCard}>
           <Image
-            source={require('./peta/ListDataScreen2.jpg')}  // Gambar fitur list data
+            source={require('./peta/listdata.jpg')}  // Gambar fitur list data
             style={styles.featureImage}
           />
           <Text style={styles.featureTitle}>List Data Masjid</Text>
@@ -159,7 +159,7 @@ const HomeScreen = ({ navigation }) => {
         </View>
         <View style={styles.featureCard}>
           <Image
-            source={require('./peta/ListDataScreen1.jpg')}  // Gambar fitur edit data
+            source={require('./peta/editdata.jpg')}  // Gambar fitur edit data
             style={styles.featureImage}
           />
           <Text style={styles.featureTitle}>Edit Data Masjid</Text>
