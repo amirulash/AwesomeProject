@@ -1,79 +1,55 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Mosque's Map Kabupaten Tuban
 
-# Getting Started
+**Nama produk**: Mosque's Map
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+**Deskripsi produk**: Mosque's Map adalah aplikasi yang dirancang untuk memudahkan pengguna dalam menemukan masjid-masjid yang ada di Kabupaten Tuban. Aplikasi ini menyediakan informasi lengkap mengenai lokasi masjid, rating, fasilitas, dan alasan mengapa masjid tersebut direkomendasikan. Dengan fokus pada tujuan branding Tuban sebagai "Bumi Wali", aplikasi ini bertujuan untuk memberikan panduan kepada masyarakat dan wisatawan yang ingin mengetahui lebih banyak tentang masjid-masjid yang ada di daerah ini. Mosque's Map menyajikan data yang terperinci tentang masjid, termasuk foto, alamat, dan rating dari pengguna sebelumnya, sehingga memudahkan dalam memilih tempat untuk beribadah, berdiskusi, atau kegiatan komunitas lainnya.
 
-## Step 1: Start the Metro Server
+**Keunggulan**:
+1. Menyediakan informasi lokasi masjid secara lengkap.
+2. Fitur rating dan review dari pengguna untuk setiap masjid.
+3. Visualisasi yang menarik dengan peta interaktif.
+4. Pengguna dapat mencari masjid berdasarkan kriteria tertentu.
+5. Menyediakan deskripsi singkat untuk setiap masjid yang terdaftar.
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+---
 
-To start Metro, run the following command from the _root_ of your React Native project:
+**Komponen pembangun produk**:
+1. React Native
+2. Leaflet
+3. Google Maps API
+4. Node.js
+5. Visual Studio Code
+6. Android Studio
+7. FontAwesome
+8. W3Schools
 
-```bash
-# using npm
-npm start
+**Sumber data**:
+1. Google Maps
+2. Data lokal Kabupaten Tuban
 
-# OR using Yarn
-yarn start
-```
+### Tampilan Aplikasi:
 
-## Step 2: Start your Application
+**HomeScreen**  
+![HomeScreen1](./peta/homescreen.jpg)  
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+**MapScreen**  
+![MapScreen1](./peta/mapscreen.jpg)  
 
-### For Android
+**ListDataScreen**  
+![ListDataScreen1](./peta/listdata.jpg)  
+![ListDataScreen2](peta/listdata2.jpg)
 
-```bash
-# using npm
-npm run android
+**EditDataScreen**  
+![AddDataScreen1](./peta/editdata.jpg)  
 
-# OR using Yarn
-yarn android
-```
+**ProfilDataScreen**  
+![ProfilDataScreen1](./peta/profile.jpg)  
 
-### For iOS
 
-```bash
-# using npm
-npm run ios
+---
 
-# OR using Yarn
-yarn ios
-```
+**Project Responsi**  
+Amirul Fahmi Ash-Shiddiqie
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+---
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
-
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
